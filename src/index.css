@@ -16,10 +16,10 @@
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 3.9%;
 
-    --primary: 240 5.9% 10%;
+    --primary: 15 54% 41%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 240 4.8% 95.9%;
+    --secondary: 84 23% 65%;
     --secondary-foreground: 240 5.9% 10%;
 
     --muted: 240 4.8% 95.9%;
@@ -33,7 +33,7 @@
 
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
-    --ring: 240 10% 3.9%;
+    --ring: 15 54% 41%;
 
     --radius: 0.75rem;
   }
@@ -69,4 +69,35 @@
   .hover-scale:hover {
     transform: scale(1.02);
   }
+  
+  .text-terracotta {
+    color: #a35530;
+  }
+  
+  .bg-terracotta {
+    background-color: #a35530;
+  }
+  
+  .text-sage {
+    color: #b0bf90;
+  }
+  
+  .bg-sage {
+    background-color: #b0bf90;
+  }
+
+  .service-card {
+    @apply p-6 rounded-lg transition-all duration-300 hover:shadow-lg;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(176, 191, 144, 0.3);
+  }
+
+  .process-step {
+    @apply flex flex-col items-center text-center max-w-xs mx-auto;
+  }
+  
+  .process-step-number {
+    @apply w-12 h-12 rounded-full bg-terracotta text-white flex items-center justify-center font-playfair text-xl mb-4;
+  }
 }
+
