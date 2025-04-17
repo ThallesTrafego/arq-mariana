@@ -1,4 +1,3 @@
-
 import { Header } from "@/components/Header";
 import { ProjectCard } from "@/components/ProjectCard";
 import { TestimonialCard } from "@/components/TestimonialCard";
@@ -21,7 +20,8 @@ import {
   Sparkles,
   Clock,
   Users,
-  Award
+  Award,
+  Heart
 } from "lucide-react";
 import {
   Carousel,
@@ -36,16 +36,15 @@ const Index = () => {
     <div className="min-h-screen bg-white overflow-x-hidden">
       <Header />
       
-      {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 relative">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1486718448742-163732cd1544')] bg-cover bg-center opacity-10 z-0"></div>
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1600585154526-990dced4db0d')] bg-cover bg-center opacity-10 z-0"></div>
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="max-w-3xl mx-auto text-center fade-in">
             <h1 className="text-5xl md:text-6xl font-playfair leading-tight mb-6 text-terracotta">
-              Transformando espaços em experiências memoráveis
+              Arquitetura que reflete você
             </h1>
             <p className="text-neutral-600 text-lg mb-10 max-w-xl mx-auto">
-              Projetos de interiores que não apenas transformam ambientes, mas elevam a qualidade de vida das pessoas que os habitam
+              Transformando espaços com sensibilidade, criatividade e personalidade única para cada cliente
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <WhatsAppButton text="Agende uma Consulta" />
@@ -57,42 +56,39 @@ const Index = () => {
         </div>
       </section>
 
-      {/* About Section */}
       <section id="about" className="py-20 px-4 bg-neutral-50">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
                 src="https://images.unsplash.com/photo-1551516594-56cb78394645" 
-                alt="Sofia Martinez" 
+                alt="Mariana Mello" 
                 className="rounded-lg shadow-xl"
               />
             </div>
             <div>
               <span className="text-sm uppercase tracking-wider text-terracotta">Conheça</span>
-              <h2 className="text-3xl md:text-4xl font-playfair mb-6">Sofia Martinez</h2>
+              <h2 className="text-3xl md:text-4xl font-playfair mb-6">Mariana Mello</h2>
               <p className="text-neutral-600 mb-4">
-                Com mais de 10 anos de experiência transformando espaços em ambientes únicos, 
-                Sofia Martinez combina conhecimentos técnicos e sensibilidade estética para 
-                criar projetos que refletem a personalidade de cada cliente.
+                Formada pela Universidade Franciscana (UFN), Mariana Mello dedica sua carreira à 
+                criação de ambientes que refletem a personalidade e estilo de vida de seus clientes.
               </p>
               <p className="text-neutral-600 mb-6">
-                Formada em Arquitetura com especialização em Design de Interiores,
-                Sofia acredita que cada ambiente influencia diretamente nosso bem-estar e 
-                produtividade, aplicando princípios da psicologia do espaço em todos os seus projetos.
+                Com um olhar sensível e atento aos detalhes, ela transforma espaços em experiências 
+                únicas, combinando funcionalidade, estética e o DNA de cada cliente em seus projetos.
               </p>
               <div className="flex flex-wrap gap-4 mt-8">
                 <div className="flex items-center">
                   <Star className="text-terracotta mr-2 h-5 w-5" />
-                  <span>Formação Internacional</span>
+                  <span>Projetos Exclusivos</span>
                 </div>
                 <div className="flex items-center">
                   <Award className="text-terracotta mr-2 h-5 w-5" />
-                  <span>Premiações no setor</span>
+                  <span>Alta Personalização</span>
                 </div>
                 <div className="flex items-center">
                   <Users className="text-terracotta mr-2 h-5 w-5" />
-                  <span>+200 projetos realizados</span>
+                  <span>Atendimento Dedicado</span>
                 </div>
               </div>
             </div>
@@ -100,7 +96,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Services Section */}
       <section id="services" className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
@@ -137,7 +132,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Process Section */}
       <section id="process" className="py-20 px-4 bg-neutral-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
@@ -173,7 +167,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Projects Section */}
       <section id="projects" className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
@@ -231,53 +224,48 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Differentials Section */}
       <section id="differentials" className="py-20 px-4 bg-terracotta text-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <span className="text-sm uppercase tracking-wider text-white/80">Diferenciais</span>
-            <h2 className="text-3xl md:text-4xl font-playfair mb-4">Por que nos escolher</h2>
+            <h2 className="text-3xl md:text-4xl font-playfair mb-4">Por que escolher a Mariana</h2>
             <p className="text-white/90 max-w-xl mx-auto">
-              Valores que orientam nosso trabalho e nos destacam no mercado.
+              Compromisso com a excelência e dedicação em cada detalhe do seu projeto.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center p-6">
               <div className="bg-white/10 rounded-full p-4 inline-flex mb-4">
-                <Sparkles className="h-8 w-8" />
+                <Heart className="h-8 w-8" />
               </div>
-              <h3 className="text-xl font-playfair mb-2">Personalização Única</h3>
+              <h3 className="text-xl font-playfair mb-2">Sensibilidade</h3>
               <p className="text-white/80">
-                Cada projeto é único, como a personalidade de cada cliente.
-                Trabalhamos para criar espaços que refletem quem você é.
+                Compreensão profunda das necessidades e desejos de cada cliente para criar espaços verdadeiramente especiais.
               </p>
             </div>
             <div className="text-center p-6">
               <div className="bg-white/10 rounded-full p-4 inline-flex mb-4">
-                <Clock className="h-8 w-8" />
+                <Sparkles className="h-8 w-8" />
               </div>
-              <h3 className="text-xl font-playfair mb-2">Compromisso com Prazos</h3>
+              <h3 className="text-xl font-playfair mb-2">Criatividade</h3>
               <p className="text-white/80">
-                Entendemos o valor do seu tempo e trabalhamos para garantir
-                que cada etapa seja concluída no prazo estabelecido.
+                Soluções inovadoras e personalizadas que transformam desafios em oportunidades únicas de design.
               </p>
             </div>
             <div className="text-center p-6">
               <div className="bg-white/10 rounded-full p-4 inline-flex mb-4">
                 <Star className="h-8 w-8" />
               </div>
-              <h3 className="text-xl font-playfair mb-2">Excelência em Detalhes</h3>
+              <h3 className="text-xl font-playfair mb-2">Comprometimento</h3>
               <p className="text-white/80">
-                São os pequenos detalhes que fazem grandes diferenças.
-                Nossa atenção a cada elemento torna seu espaço especial.
+                Dedicação total a cada projeto, garantindo que cada detalhe seja executado com excelência.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Testimonials Section */}
       <section id="testimonials" className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
@@ -325,7 +313,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Final CTA Section */}
       <section id="cta" className="py-20 px-4 bg-sage/20">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-playfair mb-6">Pronto para transformar seu espaço?</h2>
@@ -337,7 +324,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Contact Section */}
       <section id="contact" className="py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl mx-auto text-center">
@@ -346,35 +332,31 @@ const Index = () => {
             <div className="space-y-6 mb-8">
               <p className="flex items-center justify-center gap-2">
                 <Mail className="h-5 w-5 text-terracotta" />
-                contato@sofiamartinez.com
+                contato@marianamello.com
               </p>
               <p className="flex items-center justify-center gap-2">
                 <Phone className="h-5 w-5 text-terracotta" />
-                (11) 99999-9999
+                (55) 99999-9999
               </p>
               <p className="flex items-center justify-center gap-2">
                 <MapPin className="h-5 w-5 text-terracotta" />
-                São Paulo, SP
+                Santa Maria, RS
               </p>
             </div>
             <div className="flex justify-center gap-6">
-              <a href="#" className="text-neutral-600 hover:text-terracotta transition-colors">
-                <Instagram className="h-6 w-6" />
-              </a>
-              <a href="#" className="text-neutral-600 hover:text-terracotta transition-colors">
-                <Facebook className="h-6 w-6" />
-              </a>
+              <a href="#" className="text-neutral-600 hover:text-terracotta transition-colors">Política de Privacidade</a>
+              <Separator orientation="vertical" className="h-4" />
+              <a href="#" className="text-neutral-600 hover:text-terracotta transition-colors">Termos de Uso</a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="py-8 px-4 border-t">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-neutral-500 mb-4 md:mb-0">
-              &copy; {new Date().getFullYear()} Sofia Martinez Arquitetura. Todos os direitos reservados.
+              &copy; {new Date().getFullYear()} Mariana Mello Arquitetura. Todos os direitos reservados.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-neutral-500 hover:text-terracotta transition-colors">Política de Privacidade</a>

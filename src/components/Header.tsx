@@ -34,7 +34,7 @@ export const Header = () => {
       <div className="max-w-7xl mx-auto px-4 py-4">
         <nav className="flex items-center justify-between">
           <a href="/" className="text-2xl font-playfair font-medium">
-            Sofia Martinez
+            Mariana Mello
           </a>
 
           {isMobile ? (
