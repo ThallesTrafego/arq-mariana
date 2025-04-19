@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@300;400;500&display=swap');
 
 @tailwind base;
@@ -100,6 +101,6 @@
   }
   
   .process-step-number {
-    @apply w-12 h-12 rounded-full bg-terracotta text-white flex items-center justify-center font-playfair text-xl mb-4;
+    @apply w-12 h-12 rounded-full bg-terracotta text-white flex items-center justify-center font-adam text-xl mb-4;
   }
 }
