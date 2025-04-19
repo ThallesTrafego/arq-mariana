@@ -1,3 +1,4 @@
+
 import { Header } from "@/components/Header";
 import { ProjectCard } from "@/components/ProjectCard";
 import { TestimonialCard } from "@/components/TestimonialCard";
@@ -36,18 +37,35 @@ const Index = () => {
     <div className="min-h-screen bg-white overflow-x-hidden font-century">
       <Header />
       
-      <section className="pt-32 pb-20 px-4 relative">
-        <div className="max-w-7xl mx-auto relative z-10">
-          <div className="max-w-3xl mx-auto text-center fade-in">
-            <h1 className="text-5xl md:text-6xl font-adam leading-tight mb-6 text-terracotta">
-              Arquitetura que reflete você
+      <section className="relative min-h-screen flex items-center">
+        {/* Background image with overlay */}
+        <div 
+          className="absolute inset-0 z-0"
+          style={{
+            backgroundImage: 'url("/lovable-uploads/57000fe7-b7b1-4087-8f5a-ff90ffc6d9d1.png")',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
+          <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px]"></div>
+        </div>
+
+        {/* Content */}
+        <div className="relative z-10 max-w-7xl mx-auto px-4 py-32">
+          <div className="max-w-3xl text-white">
+            <h1 className="text-5xl md:text-6xl font-adam leading-tight mb-6 fade-in">
+              Arquitetura que<br />
+              reflete você
             </h1>
-            <p className="text-neutral-600 text-lg mb-10 max-w-xl mx-auto">
+            <p className="text-xl mb-10 max-w-xl font-century fade-in opacity-90">
               Transformando espaços com sensibilidade, criatividade e personalidade única para cada cliente
             </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <div className="flex flex-col sm:flex-row items-start gap-4 fade-in">
               <WhatsAppButton text="Agende uma Consulta" />
-              <Button variant="outline" className="rounded-full border-terracotta text-terracotta hover:bg-terracotta/10">
+              <Button 
+                variant="outline" 
+                className="rounded-full border-white text-white hover:bg-white/10"
+              >
                 Ver Portfólio
               </Button>
             </div>
