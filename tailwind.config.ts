@@ -21,8 +21,6 @@ export default {
       fontFamily: {
         adam: ["ADAM", "sans-serif"],
         century: ["Century Gothic", "sans-serif"],
-        playfair: ["Playfair Display", "serif"],
-        raleway: ["Raleway", "sans-serif"],
       },
       colors: {
         terracotta: "#a35530",

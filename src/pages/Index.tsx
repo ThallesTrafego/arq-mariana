@@ -33,14 +33,13 @@ import {
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-white overflow-x-hidden">
+    <div className="min-h-screen bg-white overflow-x-hidden font-century">
       <Header />
       
       <section className="pt-32 pb-20 px-4 relative">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1600585154526-990dced4db0d')] bg-cover bg-center opacity-10 z-0"></div>
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="max-w-3xl mx-auto text-center fade-in">
-            <h1 className="text-5xl md:text-6xl font-playfair leading-tight mb-6 text-terracotta">
+            <h1 className="text-5xl md:text-6xl font-adam leading-tight mb-6 text-terracotta">
               Arquitetura que reflete você
             </h1>
             <p className="text-neutral-600 text-lg mb-10 max-w-xl mx-auto">
@@ -68,7 +67,7 @@ const Index = () => {
             </div>
             <div>
               <span className="text-sm uppercase tracking-wider text-terracotta">Conheça</span>
-              <h2 className="text-3xl md:text-4xl font-playfair mb-6">Mariana Mello</h2>
+              <h2 className="text-3xl md:text-4xl font-adam mb-6">Mariana Mello</h2>
               <p className="text-neutral-600 mb-4">
                 Formada pela Universidade Franciscana (UFN), Mariana Mello dedica sua carreira à 
                 criação de ambientes que refletem a personalidade e estilo de vida de seus clientes.
@@ -100,7 +99,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <span className="text-sm uppercase tracking-wider text-terracotta">Serviços</span>
-            <h2 className="text-3xl md:text-4xl font-playfair mb-4">O que oferecemos</h2>
+            <h2 className="text-3xl md:text-4xl font-adam mb-4">O que oferecemos</h2>
             <p className="text-neutral-600 max-w-xl mx-auto">
               Soluções completas para transformar qualquer espaço em um ambiente funcional, 
               confortável e esteticamente harmonioso.
@@ -136,7 +135,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <span className="text-sm uppercase tracking-wider text-terracotta">Metodologia</span>
-            <h2 className="text-3xl md:text-4xl font-playfair mb-4">Como trabalhamos</h2>
+            <h2 className="text-3xl md:text-4xl font-adam mb-4">Como trabalhamos</h2>
             <p className="text-neutral-600 max-w-xl mx-auto">
               Um processo transparente e colaborativo para criar espaços que você vai amar.
             </p>
@@ -171,7 +170,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <span className="text-sm uppercase tracking-wider text-terracotta">Portfólio</span>
-            <h2 className="text-3xl md:text-4xl font-playfair mb-4">Projetos Selecionados</h2>
+            <h2 className="text-3xl md:text-4xl font-adam mb-4">Projetos Selecionados</h2>
             <p className="text-neutral-600 max-w-xl mx-auto">
               Conheça alguns dos nossos trabalhos recentes e deixe-se inspirar para o seu próximo projeto.
             </p>
@@ -228,7 +227,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <span className="text-sm uppercase tracking-wider text-white/80">Diferenciais</span>
-            <h2 className="text-3xl md:text-4xl font-playfair mb-4">Por que escolher a Mariana</h2>
+            <h2 className="text-3xl md:text-4xl font-adam mb-4">Por que escolher a Mariana</h2>
             <p className="text-white/90 max-w-xl mx-auto">
               Compromisso com a excelência e dedicação em cada detalhe do seu projeto.
             </p>
@@ -239,7 +238,7 @@ const Index = () => {
               <div className="bg-white/10 rounded-full p-4 inline-flex mb-4">
                 <Heart className="h-8 w-8" />
               </div>
-              <h3 className="text-xl font-playfair mb-2">Sensibilidade</h3>
+              <h3 className="text-xl font-adam mb-2">Sensibilidade</h3>
               <p className="text-white/80">
                 Compreensão profunda das necessidades e desejos de cada cliente para criar espaços verdadeiramente especiais.
               </p>
@@ -248,7 +247,7 @@ const Index = () => {
               <div className="bg-white/10 rounded-full p-4 inline-flex mb-4">
                 <Sparkles className="h-8 w-8" />
               </div>
-              <h3 className="text-xl font-playfair mb-2">Criatividade</h3>
+              <h3 className="text-xl font-adam mb-2">Criatividade</h3>
               <p className="text-white/80">
                 Soluções inovadoras e personalizadas que transformam desafios em oportunidades únicas de design.
               </p>
@@ -257,7 +256,7 @@ const Index = () => {
               <div className="bg-white/10 rounded-full p-4 inline-flex mb-4">
                 <Star className="h-8 w-8" />
               </div>
-              <h3 className="text-xl font-playfair mb-2">Comprometimento</h3>
+              <h3 className="text-xl font-adam mb-2">Comprometimento</h3>
               <p className="text-white/80">
                 Dedicação total a cada projeto, garantindo que cada detalhe seja executado com excelência.
               </p>
@@ -270,7 +269,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <span className="text-sm uppercase tracking-wider text-terracotta">Depoimentos</span>
-            <h2 className="text-3xl md:text-4xl font-playfair mb-4">O que dizem nossos clientes</h2>
+            <h2 className="text-3xl md:text-4xl font-adam mb-4">O que dizem nossos clientes</h2>
             <p className="text-neutral-600 max-w-xl mx-auto">
               A satisfação de quem confiou em nosso trabalho para transformar seus espaços.
             </p>
@@ -315,7 +314,7 @@ const Index = () => {
 
       <section id="cta" className="py-20 px-4 bg-sage/20">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-playfair mb-6">Pronto para transformar seu espaço?</h2>
+          <h2 className="text-3xl md:text-4xl font-adam mb-6">Pronto para transformar seu espaço?</h2>
           <p className="text-neutral-600 mb-8 max-w-lg mx-auto">
             Entre em contato agora mesmo e vamos iniciar uma conversa sobre como podemos 
             transformar seu ambiente em um espaço que você vai amar.
@@ -328,7 +327,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl mx-auto text-center">
             <span className="text-sm uppercase tracking-wider text-terracotta">Contato</span>
-            <h2 className="text-3xl md:text-4xl font-playfair mb-8">Vamos criar algo extraordinário</h2>
+            <h2 className="text-3xl md:text-4xl font-adam mb-8">Vamos criar algo extraordinário</h2>
             <div className="space-y-6 mb-8">
               <p className="flex items-center justify-center gap-2">
                 <Mail className="h-5 w-5 text-terracotta" />
