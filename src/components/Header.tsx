@@ -33,13 +33,16 @@ export const Header = () => {
     <header className="fixed w-full bg-white/80 backdrop-blur-sm z-50">
       <div className="max-w-7xl mx-auto px-4 py-4">
         <nav className="flex items-center justify-between">
-          <a href="/" className="block w-48">
-            <img 
-              src="/lovable-uploads/6c707e66-6dfa-4e9e-870b-27f74f28bb87.png"
-              alt="Mariana Mello Arquitetura e Decoração"
-              className="w-full"
-            />
-          </a>
+          <div className="flex items-center space-x-4">
+            <a href="/" className="block w-24">
+              <img 
+                src="/lovable-uploads/6c707e66-6dfa-4e9e-870b-27f74f28bb87.png"
+                alt="Mariana Mello Arquitetura e Decoração"
+                className="w-full"
+              />
+            </a>
+            <span className="text-xl font-adam text-terracotta">Mariana Mello</span>
+          </div>
 
           {isMobile ? (
             <Sheet>
