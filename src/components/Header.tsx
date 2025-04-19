@@ -21,7 +21,7 @@ export const Header = () => {
         <a
           key={item.name}
           href={item.href}
-          className="text-neutral-700 hover:text-neutral-900 transition-colors"
+          className="text-neutral-700 hover:text-terracotta transition-colors font-century"
         >
           {item.name}
         </a>
@@ -33,8 +33,12 @@ export const Header = () => {
     <header className="fixed w-full bg-white/80 backdrop-blur-sm z-50">
       <div className="max-w-7xl mx-auto px-4 py-4">
         <nav className="flex items-center justify-between">
-          <a href="/" className="text-2xl font-playfair font-medium">
-            Mariana Mello
+          <a href="/" className="block w-48">
+            <img 
+              src="/lovable-uploads/6c707e66-6dfa-4e9e-870b-27f74f28bb87.png"
+              alt="Mariana Mello Arquitetura e Decoração"
+              className="w-full"
+            />
           </a>
 
           {isMobile ? (

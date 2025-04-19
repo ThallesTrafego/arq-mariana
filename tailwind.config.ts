@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -20,10 +19,14 @@ export default {
     },
     extend: {
       fontFamily: {
+        adam: ["ADAM", "sans-serif"],
+        century: ["Century Gothic", "sans-serif"],
         playfair: ["Playfair Display", "serif"],
         raleway: ["Raleway", "sans-serif"],
       },
       colors: {
+        terracotta: "#a35530",
+        sage: "#b0bf90",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
