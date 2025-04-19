@@ -37,7 +37,7 @@ const Index = () => {
     <div className="min-h-screen bg-white overflow-x-hidden font-century">
       <Header />
       
-      <section className="relative min-h-screen flex items-center">
+      <section className="relative min-h-screen flex items-center justify-center">
         {/* Background image with overlay */}
         <div 
           className="absolute inset-0 z-0"
@@ -51,16 +51,16 @@ const Index = () => {
         </div>
 
         {/* Content */}
-        <div className="relative z-10 max-w-7xl mx-auto px-4 py-32">
-          <div className="max-w-3xl text-white">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 py-32 text-center">
+          <div className="max-w-3xl mx-auto text-white">
             <h1 className="text-5xl md:text-6xl font-adam leading-tight mb-6 fade-in">
               Arquitetura que<br />
               reflete você
             </h1>
-            <p className="text-xl mb-10 max-w-xl font-century fade-in opacity-90">
+            <p className="text-xl mb-10 max-w-xl mx-auto font-century fade-in opacity-90">
               Transformando espaços com sensibilidade, criatividade e personalidade única para cada cliente
             </p>
-            <div className="flex flex-col sm:flex-row items-start gap-4 fade-in">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 fade-in">
               <WhatsAppButton text="Agende uma Consulta" />
               <Button 
                 variant="outline" 

@@ -34,14 +34,13 @@ export const Header = () => {
       <div className="max-w-7xl mx-auto px-4 py-4">
         <nav className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <a href="/" className="block w-24">
+            <a href="/" className="block w-32">
               <img 
-                src="/lovable-uploads/6c707e66-6dfa-4e9e-870b-27f74f28bb87.png"
+                src="/lovable-uploads/eac2bf34-a694-4856-8ab5-2b71afac2228.png"
                 alt="Mariana Mello Arquitetura e Decoração"
                 className="w-full"
               />
             </a>
-            <span className="text-xl font-adam text-terracotta">Mariana Mello</span>
           </div>
 
           {isMobile ? (
