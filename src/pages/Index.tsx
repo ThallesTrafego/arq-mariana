@@ -1,4 +1,3 @@
-
 import { Header } from "@/components/Header";
 import { ProjectCard } from "@/components/ProjectCard";
 import { TestimonialCard } from "@/components/TestimonialCard";
@@ -196,47 +195,16 @@ const Index = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
-              image="https://images.unsplash.com/photo-1486718448742-163732cd1544"
-              title="Residência Serenidade"
-              description="Design contemporâneo com elementos naturais"
+              images={[
+                "/lovable-uploads/68b68c7c-c579-45f2-bd69-3d26d9800adb.png",
+                "/lovable-uploads/221b2a36-6bbf-426f-b233-2b0af29eeb28.png",
+                "/lovable-uploads/fad82554-dcb9-4272-bf20-93f2e7b525b6.png"
+              ]}
+              title="Área Gourmet Contemporânea"
+              description="Espaço aconchegante que integra churrasqueira, cozinha e área de estar, com acabamentos em madeira e concreto aparente."
               category="Residencial"
             />
-            <ProjectCard
-              image="https://images.unsplash.com/photo-1493397212122-2b85dda8106b"
-              title="Escritório Moderno"
-              description="Ambiente corporativo elegante e funcional"
-              category="Comercial"
-            />
-            <ProjectCard
-              image="https://images.unsplash.com/photo-1551038247-3d9af20df552"
-              title="Apartamento Minimalista"
-              description="Simplicidade e sofisticação em harmonia"
-              category="Residencial"
-            />
-            <ProjectCard
-              image="https://images.unsplash.com/photo-1560185893-a55cbc8c57e8"
-              title="Café Boutique"
-              description="Espaço acolhedor com personalidade única"
-              category="Comercial"
-            />
-            <ProjectCard
-              image="https://images.unsplash.com/photo-1617098900591-3f90928e8c54"
-              title="Casa de Campo"
-              description="Integração com a natureza e conforto"
-              category="Residencial"
-            />
-            <ProjectCard
-              image="https://images.unsplash.com/photo-1600585154526-990dced4db0d"
-              title="Loft Industrial"
-              description="Estilo urbano com toques de sofisticação"
-              category="Residencial"
-            />
-          </div>
-          
-          <div className="text-center mt-10">
-            <Button variant="outline" className="rounded-full border-terracotta text-terracotta hover:bg-terracotta/10">
-              Ver Todos os Projetos
-            </Button>
+            {/* ... outros projetos serão adicionados aqui depois */}
           </div>
         </div>
       </section>
