@@ -215,6 +215,17 @@ const Index = () => {
               description="Projeto completo de interiores com closet, suíte e home office integrados, priorizando funcionalidade e elegância em tons neutros e acabamentos em madeira."
               category="Residencial"
             />
+            <ProjectCard
+              images={[
+                "/lovable-uploads/a4e52940-3928-460b-aeb2-6326255ac5f1.png",
+                "/lovable-uploads/0a7677cf-de20-49ba-89df-268fb0d6fb7e.png",
+                "/lovable-uploads/3db25f2c-fb64-49cd-8b92-6d871a9a6ac2.png",
+                "/lovable-uploads/b412acaf-9314-45e2-abbd-66167ef9ba14.png"
+              ]}
+              title="Projeto Comercial – Free Shop New York"
+              description="Projeto comercial sofisticado que combina exposição eficiente de produtos e experiência de compra premium, com iluminação setorizada e mobiliário customizado para diferentes categorias de produtos."
+              category="Comercial"
+            />
           </div>
         </div>
       </section>
@@ -310,7 +321,7 @@ const Index = () => {
 
       <section id="cta" className="py-20 px-4 bg-sage/20">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-adam mb-6">Pronto para transformar seu espa��o?</h2>
+          <h2 className="text-3xl md:text-4xl font-adam mb-6">Pronto para transformar seu espao?</h2>
           <p className="text-neutral-600 mb-8 max-w-lg mx-auto">
             Entre em contato agora mesmo e vamos iniciar uma conversa sobre como podemos 
             transformar seu ambiente em um espaço que você vai amar.
