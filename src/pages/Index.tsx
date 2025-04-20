@@ -226,6 +226,18 @@ const Index = () => {
               description="Projeto comercial sofisticado que combina exposição eficiente de produtos e experiência de compra premium, com iluminação setorizada e mobiliário customizado para diferentes categorias de produtos."
               category="Comercial"
             />
+            <ProjectCard
+              images={[
+                "/lovable-uploads/6ca53977-14a6-4dfe-8019-ebebf9a36885.png",
+                "/lovable-uploads/eb9802b5-8a99-400b-b1a5-22aa9f01bd86.png",
+                "/lovable-uploads/ece7650e-6f38-41d3-b8c6-756be22a7a22.png",
+                "/lovable-uploads/b9d2acf5-ac93-49f2-9650-20ff8d3a4961.png",
+                "/lovable-uploads/9daecd36-506f-4ec1-a61d-e09330fd83cd.png"
+              ]}
+              title="Projeto Comercial – Quadra de Beach Tênis"
+              description="Projeto inovador que combina área esportiva e espaço de convivência, com design moderno e sustentável, integrando elementos naturais e industriais para criar uma experiência única para os praticantes."
+              category="Comercial"
+            />
           </div>
         </div>
       </section>
