@@ -238,6 +238,20 @@ const Index = () => {
               description="Projeto inovador que combina área esportiva e espaço de convivência, com design moderno e sustentável, integrando elementos naturais e industriais para criar uma experiência única para os praticantes."
               category="Comercial"
             />
+            <ProjectCard
+              images={[
+                "/lovable-uploads/a72cad3b-8863-4bb7-9548-d3e8d865cf90.png",
+                "/lovable-uploads/b21fb7e4-ba73-41a0-b473-ec489d320bc8.png",
+                "/lovable-uploads/5efd485f-6436-4c97-a378-fec790dcfee8.png",
+                "/lovable-uploads/66740ffa-c787-428d-9173-aa01cb5b9a87.png",
+                "/lovable-uploads/9e3bcca7-a23b-4cda-a3ed-9b40c0082bfd.png",
+                "/lovable-uploads/c7fe9d7d-c9fe-4dd1-a635-61e19343938f.png",
+                "/lovable-uploads/650b2e77-60d9-4b73-8dc5-7666cdec0c31.png"
+              ]}
+              title="Projeto Residencial – Apartamento"
+              description="Design contemporâneo que integra espaços de convivência e trabalho, com acabamentos em madeira natural e tons neutros, criando ambientes funcionais e acolhedores para o dia a dia."
+              category="Residencial"
+            />
           </div>
         </div>
       </section>
