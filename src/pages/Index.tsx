@@ -37,7 +37,6 @@ const Index = () => {
       <Header />
       
       <section className="relative min-h-screen flex items-center justify-center">
-        {/* Background image with overlay */}
         <div 
           className="absolute inset-0 z-0"
           style={{
@@ -49,7 +48,6 @@ const Index = () => {
           <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px]"></div>
         </div>
 
-        {/* Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 py-32 text-center">
           <div className="max-w-3xl mx-auto text-white">
             <h1 className="text-5xl md:text-6xl font-adam leading-tight mb-6 fade-in">
@@ -204,7 +202,19 @@ const Index = () => {
               description="Espaço aconchegante que integra churrasqueira, cozinha e área de estar, com acabamentos em madeira e concreto aparente."
               category="Residencial"
             />
-            {/* ... outros projetos serão adicionados aqui depois */}
+            <ProjectCard
+              images={[
+                "/lovable-uploads/61433c20-4aaa-4215-b1d1-eee33f0aa034.png",
+                "/lovable-uploads/6e92effa-dff1-47fd-a207-acee87753131.png",
+                "/lovable-uploads/349dacf8-f89a-4687-9fe3-af3fb37d6efe.png",
+                "/lovable-uploads/3ddaf93f-f75c-42d0-9837-ec5d9b99ea53.png",
+                "/lovable-uploads/b4401e35-7320-453c-a634-91807f80a081.png",
+                "/lovable-uploads/c145e0a4-b02d-42d7-9f14-134fc84d3bbc.png"
+              ]}
+              title="Projeto de Interiores Residencial"
+              description="Projeto completo de interiores com closet, suíte e home office integrados, priorizando funcionalidade e elegância em tons neutros e acabamentos em madeira."
+              category="Residencial"
+            />
           </div>
         </div>
       </section>
@@ -300,7 +310,7 @@ const Index = () => {
 
       <section id="cta" className="py-20 px-4 bg-sage/20">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-adam mb-6">Pronto para transformar seu espaço?</h2>
+          <h2 className="text-3xl md:text-4xl font-adam mb-6">Pronto para transformar seu espa��o?</h2>
           <p className="text-neutral-600 mb-8 max-w-lg mx-auto">
             Entre em contato agora mesmo e vamos iniciar uma conversa sobre como podemos 
             transformar seu ambiente em um espaço que você vai amar.
