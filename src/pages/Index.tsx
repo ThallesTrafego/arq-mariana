@@ -58,7 +58,7 @@ const Index = () => {
               Transformando espaços com sensibilidade, criatividade e personalidade única para cada cliente
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 fade-in">
-              <WhatsAppButton text="Agende uma Consulta" />
+              <WhatsAppButton text="Agende uma Conversa" />
               <Button 
                 variant="outline" 
                 className="rounded-full border-white text-white hover:bg-white/10"
@@ -349,10 +349,10 @@ const Index = () => {
 
       <section id="cta" className="py-20 px-4 bg-sage/20">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-adam mb-6">Pronto para transformar seu espao?</h2>
+          <h2 className="text-3xl md:text-4xl font-adam mb-6">Pronto para transformar seu espaço?</h2>
           <p className="text-neutral-600 mb-8 max-w-lg mx-auto">
             Entre em contato agora mesmo e vamos iniciar uma conversa sobre como podemos 
-            transformar seu ambiente em um espaço que você vai amar.
+            transformar seu espaço com criatividade, funcionalidade e identidade.
           </p>
           <WhatsAppButton text="Solicite um Orçamento" className="text-lg px-8 py-6" />
         </div>
@@ -366,15 +366,15 @@ const Index = () => {
             <div className="space-y-6 mb-8">
               <p className="flex items-center justify-center gap-2">
                 <Mail className="h-5 w-5 text-terracotta" />
-                contato@marianamello.com
+                arqmarianamello@gmail.com
               </p>
               <p className="flex items-center justify-center gap-2">
                 <Phone className="h-5 w-5 text-terracotta" />
-                (55) 99999-9999
+                (55) 99114-8008
               </p>
               <p className="flex items-center justify-center gap-2">
                 <MapPin className="h-5 w-5 text-terracotta" />
-                Santa Maria, RS
+                Uruguaiana, RS
               </p>
             </div>
             <div className="flex justify-center gap-6">
