@@ -73,12 +73,14 @@ const Index = () => {
       <section id="about" className="py-20 px-4 bg-neutral-50">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
+            <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1551516594-56cb78394645" 
-                alt="Mariana Mello" 
-                className="rounded-lg shadow-xl"
+                src="/lovable-uploads/c46e4288-35eb-4f1f-b9dd-6cc1944b13a0.png"
+                alt="Mariana Mello - Arquiteta"
+                className="rounded-lg shadow-xl w-full object-cover"
+                loading="lazy"
               />
+              <div className="absolute inset-0 bg-terracotta/10 rounded-lg"></div>
             </div>
             <div>
               <span className="text-sm uppercase tracking-wider text-terracotta">Conheça</span>
