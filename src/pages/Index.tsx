@@ -196,9 +196,9 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
               images={[
-                "/lovable-uploads/4e7f4bed-6308-4933-adec-076084b65727.png",
-                "/lovable-uploads/edbcdd18-0246-4568-bc61-0a6139a3d415.png",
-                "/lovable-uploads/e7739716-d0cd-4baa-96e6-7ee19cb102cc.png",
+                "/lovable-uploads/68b68c7c-c579-45f2-bd69-3d26d9800adb.png",
+                "/lovable-uploads/221b2a36-6bbf-426f-b233-2b0af29eeb28.png",
+                "/lovable-uploads/fad82554-dcb9-4272-bf20-93f2e7b525b6.png"
               ]}
               title="Área Gourmet Contemporânea"
               description="Espaço aconchegante que integra churrasqueira, cozinha e área de estar, com acabamentos em madeira e concreto aparente."
@@ -206,10 +206,23 @@ const Index = () => {
             />
             <ProjectCard
               images={[
-                "/lovable-uploads/d0f8ab36-265d-4e6c-8d51-54eb1cb65c93.png",
-                "/lovable-uploads/93a2f07b-1f8d-4db2-adfa-864ce46c13fc.png",
-                "/lovable-uploads/3deca27f-bb15-4f99-b3ea-deeb97fb3036.png",
-                "/lovable-uploads/174d2e3a-6914-4dfc-90b4-06a19fcebfdc.png",
+                "/lovable-uploads/61433c20-4aaa-4215-b1d1-eee33f0aa034.png",
+                "/lovable-uploads/6e92effa-dff1-47fd-a207-acee87753131.png",
+                "/lovable-uploads/349dacf8-f89a-4687-9fe3-af3fb37d6efe.png",
+                "/lovable-uploads/3ddaf93f-f75c-42d0-9837-ec5d9b99ea53.png",
+                "/lovable-uploads/b4401e35-7320-453c-a634-91807f80a081.png",
+                "/lovable-uploads/c145e0a4-b02d-42d7-9f14-134fc84d3bbc.png"
+              ]}
+              title="Projeto de Interiores Residencial"
+              description="Projeto completo de interiores com closet, suíte e home office integrados, priorizando funcionalidade e elegância em tons neutros e acabamentos em madeira."
+              category="Residencial"
+            />
+            <ProjectCard
+              images={[
+                "/lovable-uploads/a4e52940-3928-460b-aeb2-6326255ac5f1.png",
+                "/lovable-uploads/0a7677cf-de20-49ba-89df-268fb0d6fb7e.png",
+                "/lovable-uploads/3db25f2c-fb64-49cd-8b92-6d871a9a6ac2.png",
+                "/lovable-uploads/b412acaf-9314-45e2-abbd-66167ef9ba14.png"
               ]}
               title="Projeto Comercial – Free Shop New York"
               description="Projeto comercial sofisticado que combina exposição eficiente de produtos e experiência de compra premium, com iluminação setorizada e mobiliário customizado para diferentes categorias de produtos."
@@ -217,11 +230,11 @@ const Index = () => {
             />
             <ProjectCard
               images={[
-                "/lovable-uploads/e070c19a-e695-44c0-af44-9582f81128cf.png",
-                "/lovable-uploads/91e39507-2c27-47f9-a6ee-5cde07692536.png",
-                "/lovable-uploads/bf71dd9a-cdea-405b-a6b6-017eaee4ddb0.png",
-                "/lovable-uploads/6766ff8d-7892-4d99-b306-71df747e723f.png",
-                "/lovable-uploads/2fa390ab-106b-454d-ae3b-b382df149594.png"
+                "/lovable-uploads/6ca53977-14a6-4dfe-8019-ebebf9a36885.png",
+                "/lovable-uploads/eb9802b5-8a99-400b-b1a5-22aa9f01bd86.png",
+                "/lovable-uploads/ece7650e-6f38-41d3-b8c6-756be22a7a22.png",
+                "/lovable-uploads/b9d2acf5-ac93-49f2-9650-20ff8d3a4961.png",
+                "/lovable-uploads/9daecd36-506f-4ec1-a61d-e09330fd83cd.png"
               ]}
               title="Projeto Comercial – Quadra de Beach Tênis"
               description="Projeto inovador que combina área esportiva e espaço de convivência, com design moderno e sustentável, integrando elementos naturais e industriais para criar uma experiência única para os praticantes."
