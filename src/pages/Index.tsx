@@ -219,10 +219,10 @@ const Index = () => {
             />
             <ProjectCard
               images={[
-                "/lovable-uploads/a4e52940-3928-460b-aeb2-6326255ac5f1.png",
-                "/lovable-uploads/0a7677cf-de20-49ba-89df-268fb0d6fb7e.png",
-                "/lovable-uploads/3db25f2c-fb64-49cd-8b92-6d871a9a6ac2.png",
-                "/lovable-uploads/b412acaf-9314-45e2-abbd-66167ef9ba14.png"
+                "/lovable-uploads/9d635749-fa93-414a-b4b5-6e7408b3305f.png",
+                "/lovable-uploads/11e0f03a-0b77-45bc-a9af-2e9a78565ffa.png",
+                "/lovable-uploads/09a7d156-bfdd-4ec5-a78c-524a5ff657c9.png",
+                "/lovable-uploads/717a0912-84d5-4217-bd95-7bea5304f875.png"
               ]}
               title="Projeto Comercial – Free Shop New York"
               description="Projeto comercial sofisticado que combina exposição eficiente de produtos e experiência de compra premium, com iluminação setorizada e mobiliário customizado para diferentes categorias de produtos."
