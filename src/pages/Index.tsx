@@ -230,11 +230,11 @@ const Index = () => {
             />
             <ProjectCard
               images={[
-                "/lovable-uploads/6ca53977-14a6-4dfe-8019-ebebf9a36885.png",
-                "/lovable-uploads/eb9802b5-8a99-400b-b1a5-22aa9f01bd86.png",
-                "/lovable-uploads/ece7650e-6f38-41d3-b8c6-756be22a7a22.png",
-                "/lovable-uploads/b9d2acf5-ac93-49f2-9650-20ff8d3a4961.png",
-                "/lovable-uploads/9daecd36-506f-4ec1-a61d-e09330fd83cd.png"
+                "/lovable-uploads/c38d876b-ce96-4d10-bbae-c77c961a40cd.png",
+                "/lovable-uploads/16658772-15a1-4852-b7fa-c6309d242b58.png",
+                "/lovable-uploads/e6511fde-4c7b-4ab8-b6f6-5b052a5b352a.png",
+                "/lovable-uploads/fd11c6c0-702b-4d52-a572-0ff688a28f71.png",
+                "/lovable-uploads/56163cfd-9168-4a08-afb3-662171b5575e.png"
               ]}
               title="Projeto Comercial – Quadra de Beach Tênis"
               description="Projeto inovador que combina área esportiva e espaço de convivência, com design moderno e sustentável, integrando elementos naturais e industriais para criar uma experiência única para os praticantes."
