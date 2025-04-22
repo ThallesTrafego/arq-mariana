@@ -2,7 +2,7 @@
 import { Dialog, DialogContent } from "./ui/dialog";
 import { Button } from "./ui/button";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 interface ProjectGalleryModalProps {
   images: string[];
@@ -12,6 +12,25 @@ interface ProjectGalleryModalProps {
 
 export const ProjectGalleryModal = ({ images, open, onOpenChange }: ProjectGalleryModalProps) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [loadedImages, setLoadedImages] = useState<Record<number, boolean>>({});
+  const [preloadedIndexes, setPreloadedIndexes] = useState<number[]>([]);
+
+  // Preload adjacent images when current image changes or modal opens
+  useEffect(() => {
+    if (open) {
+      const imagesToPreload = [
+        currentImageIndex,
+        (currentImageIndex + 1) % images.length,
+        (currentImageIndex - 1 + images.length) % images.length,
+      ];
+      
+      setPreloadedIndexes(imagesToPreload);
+    }
+  }, [currentImageIndex, open, images.length]);
+
+  const handleImageLoad = (index: number) => {
+    setLoadedImages(prev => ({ ...prev, [index]: true }));
+  };
 
   const nextImage = () => {
     setCurrentImageIndex((prev) => (prev + 1) % images.length);
@@ -44,11 +63,34 @@ export const ProjectGalleryModal = ({ images, open, onOpenChange }: ProjectGalle
           </Button>
 
           <div className="w-full h-full flex items-center justify-center p-8">
+            {!loadedImages[currentImageIndex] && (
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="h-10 w-10 animate-spin rounded-full border-4 border-white border-t-transparent"></div>
+              </div>
+            )}
             <img
               src={images[currentImageIndex]}
               alt={`Imagem ${currentImageIndex + 1}`}
-              className="max-w-full max-h-full object-contain"
+              loading="eager"
+              onLoad={() => handleImageLoad(currentImageIndex)}
+              className={`max-w-full max-h-full object-contain transition-opacity duration-300 ${
+                loadedImages[currentImageIndex] ? 'opacity-100' : 'opacity-0'
+              }`}
             />
+            
+            {/* Preload adjacent images */}
+            <div className="hidden">
+              {preloadedIndexes.map(index => (
+                index !== currentImageIndex && (
+                  <img 
+                    key={`preload-${index}`}
+                    src={images[index]} 
+                    onLoad={() => handleImageLoad(index)}
+                    alt=""
+                  />
+                )
+              ))}
+            </div>
           </div>
 
           <Button

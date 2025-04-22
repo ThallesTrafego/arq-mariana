@@ -20,6 +20,11 @@ interface ProjectCardProps {
 
 export const ProjectCard = ({ images, title, description, category }: ProjectCardProps) => {
   const [galleryOpen, setGalleryOpen] = useState(false);
+  const [imagesLoaded, setImagesLoaded] = useState<Record<number, boolean>>({});
+
+  const handleImageLoad = (index: number) => {
+    setImagesLoaded(prev => ({ ...prev, [index]: true }));
+  };
 
   return (
     <div className="group cursor-pointer">
@@ -28,11 +33,20 @@ export const ProjectCard = ({ images, title, description, category }: ProjectCar
           <CarouselContent>
             {images.slice(0, 3).map((image, index) => (
               <CarouselItem key={index}>
-                <AspectRatio ratio={4/3}>
+                <AspectRatio ratio={4/3} className="bg-muted">
+                  {!imagesLoaded[index] && (
+                    <div className="absolute inset-0 flex items-center justify-center bg-muted">
+                      <div className="h-6 w-6 animate-spin rounded-full border-2 border-terracotta border-t-transparent"></div>
+                    </div>
+                  )}
                   <img
                     src={image}
                     alt={`${title} - Imagem ${index + 1}`}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    loading="lazy"
+                    onLoad={() => handleImageLoad(index)}
+                    className={`w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 ${
+                      imagesLoaded[index] ? 'opacity-100' : 'opacity-0'
+                    }`}
                   />
                 </AspectRatio>
               </CarouselItem>
