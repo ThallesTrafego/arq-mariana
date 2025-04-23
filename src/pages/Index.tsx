@@ -210,19 +210,24 @@ const Index = () => {
               description="Espaço aconchegante que integra churrasqueira, cozinha e área de estar, com acabamentos em madeira e concreto aparente."
               category="Residencial"
             />
+            
             <ProjectCard
               images={[
-                "/lovable-uploads/61433c20-4aaa-4215-b1d1-eee33f0aa034.png",
-                "/lovable-uploads/6e92effa-dff1-47fd-a207-acee87753131.png",
-                "/lovable-uploads/349dacf8-f89a-4687-9fe3-af3fb37d6efe.png",
-                "/lovable-uploads/3ddaf93f-f75c-42d0-9837-ec5d9b99ea53.png",
-                "/lovable-uploads/b4401e35-7320-453c-a634-91807f80a081.png",
-                "/lovable-uploads/c145e0a4-b02d-42d7-9f14-134fc84d3bbc.png"
+                "/lovable-uploads/5f744a1a-f10e-45c7-96e9-7d36fac30e1a.png",
+                "/lovable-uploads/3282f8ba-8cf7-4d46-a879-8bc974064e41.png",
+                "/lovable-uploads/a7a38df8-53db-4923-a97b-9df694bb868e.png",
+                "/lovable-uploads/43e764ba-8ef3-4ba9-b4e5-e8eb980f62d5.png",
+                "/lovable-uploads/9c80b04d-8e6e-43f8-a175-b7c8b2b99348.png",
+                "/lovable-uploads/bfa60787-db42-4b6b-93ce-d47f126e2d8a.png",
+                "/lovable-uploads/809420dd-da50-4a4a-9289-bfd26b2dd4c6.png",
+                "/lovable-uploads/c075df1c-aaa9-463d-a898-7287f8c25315.png",
+                "/lovable-uploads/9a83e810-b601-4069-a437-56873d09ccc6.png"
               ]}
               title="Projeto de Interiores Residencial"
-              description="Projeto completo de interiores com closet, suíte e home office integrados, priorizando funcionalidade e elegância em tons neutros e acabamentos em madeira."
+              description="Design contemporâneo que integra espaços de convivência e trabalho, com acabamentos em madeira natural e tons neutros, criando ambientes funcionais e acolhedores para o dia a dia."
               category="Residencial"
             />
+
             <ProjectCard
               images={[
                 "/lovable-uploads/9d635749-fa93-414a-b4b5-6e7408b3305f.png",
