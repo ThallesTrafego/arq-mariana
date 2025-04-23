@@ -267,6 +267,17 @@ const Index = () => {
               description="Design contemporâneo que integra espaços de convivência e trabalho, com acabamentos em madeira natural e tons neutros, criando ambientes funcionais e acolhedores para o dia a dia."
               category="Residencial"
             />
+            <ProjectCard
+              images={[
+                "/lovable-uploads/562e2cf8-f522-4af5-bad9-96b3399d2fc4.png",
+                "/lovable-uploads/e2b7258d-ef01-4282-b565-d519f304fea4.png",
+                "/lovable-uploads/d310c12d-9b73-45d6-a51c-3e92aa9a5b23.png",
+                "/lovable-uploads/fa4386ce-7e4b-4f49-805e-9084b4b8d06a.png"
+              ]}
+              title="Projeto Comercial – Loja Aloma Zen"
+              description="Projeto comercial que harmoniza elementos zen e modernos, com iluminação setorizada e mobiliário personalizado, criando uma atmosfera acolhedora que reflete a identidade da marca."
+              category="Comercial"
+            />
           </div>
         </div>
       </section>
