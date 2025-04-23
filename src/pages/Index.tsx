@@ -45,7 +45,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url("/lovable-uploads/57000fe7-b7b1-4087-8f5a-ff90ffc6d9d1.png")',
+            backgroundImage: 'url("/lovable-uploads/297c688e-2350-409e-855b-b717e7b8ed66.png")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
@@ -268,6 +268,16 @@ const Index = () => {
               category="Residencial"
             />
           </div>
+        </div>
+      </section>
+
+      <section className="py-12 px-4 bg-terracotta/10">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-2xl md:text-3xl font-adam mb-6">Pronto para transformar seu ambiente?</h2>
+          <p className="text-neutral-600 mb-8">
+            Entre em contato agora e vamos criar juntos o projeto dos seus sonhos.
+          </p>
+          <WhatsAppButton text="Fale com nossa equipe" className="text-lg px-8 py-4 bg-terracotta hover:bg-terracotta/90" />
         </div>
       </section>
 
