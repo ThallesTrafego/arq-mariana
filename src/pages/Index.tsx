@@ -32,6 +32,11 @@ import {
 } from "@/components/ui/carousel";
 
 const Index = () => {
+  const scrollToProjects = () => {
+    const projectsSection = document.getElementById('projects');
+    projectsSection?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className="min-h-screen bg-white overflow-x-hidden font-century">
       <Header />
@@ -58,10 +63,11 @@ const Index = () => {
               Transformando espaços com sensibilidade, criatividade e personalidade única para cada cliente
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 fade-in">
-              <WhatsAppButton text="Agende uma Conversa" />
+              <WhatsAppButton text="Quero transformar meu ambiente" className="bg-terracotta hover:bg-terracotta/90" />
               <Button 
                 variant="outline" 
-                className="rounded-full border-white text-white hover:bg-white/10"
+                className="rounded-full border-2 border-white text-white hover:bg-white/20 transition-all"
+                onClick={scrollToProjects}
               >
                 Ver Portfólio
               </Button>
@@ -363,19 +369,37 @@ const Index = () => {
           <div className="max-w-3xl mx-auto text-center">
             <span className="text-sm uppercase tracking-wider text-terracotta">Contato</span>
             <h2 className="text-3xl md:text-4xl font-adam mb-8">Vamos criar algo extraordinário</h2>
-            <div className="space-y-6 mb-8">
-              <p className="flex items-center justify-center gap-2">
-                <Mail className="h-5 w-5 text-terracotta" />
-                arqmarianamello@gmail.com
-              </p>
-              <p className="flex items-center justify-center gap-2">
-                <Phone className="h-5 w-5 text-terracotta" />
-                (55) 99114-8008
-              </p>
-              <p className="flex items-center justify-center gap-2">
-                <MapPin className="h-5 w-5 text-terracotta" />
-                Uruguaiana, RS
-              </p>
+            <div className="flex flex-col space-y-6 mb-8">
+              <div className="flex flex-col items-center space-y-6">
+                <a 
+                  href="mailto:arqmarianamello@gmail.com"
+                  className="flex items-center justify-center gap-2 hover:text-terracotta transition-colors"
+                >
+                  <Mail className="h-5 w-5 text-terracotta" />
+                  arqmarianamello@gmail.com
+                </a>
+                <a 
+                  href="tel:+55991148008"
+                  className="flex items-center justify-center gap-2 hover:text-terracotta transition-colors"
+                >
+                  <Phone className="h-5 w-5 text-terracotta" />
+                  (55) 99114-8008
+                </a>
+                <p className="flex items-center justify-center gap-2">
+                  <MapPin className="h-5 w-5 text-terracotta" />
+                  Uruguaiana, RS
+                </p>
+                <div className="flex items-center justify-center gap-6 pt-4">
+                  <a
+                    href="https://www.instagram.com/arquitetamarianamello/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-neutral-600 hover:text-terracotta transition-colors"
+                  >
+                    <Instagram className="h-6 w-6" />
+                  </a>
+                </div>
+              </div>
             </div>
             <div className="flex justify-center gap-6">
               <a href="#" className="text-neutral-600 hover:text-terracotta transition-colors">Política de Privacidade</a>
