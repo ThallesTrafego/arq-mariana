@@ -283,6 +283,16 @@ const Index = () => {
               title="Loja Teka"
               category="Comercial"
             />
+            <ProjectCard
+              images={[
+                "/lovable-uploads/22a2a92d-fd77-471a-b369-360c974f7061.png",
+                "/lovable-uploads/a57b74ee-2a4f-47a9-b7a3-879950bafcce.png",
+                "/lovable-uploads/66a46e2d-1b9e-41ac-8624-8230a32873bf.png",
+                "/lovable-uploads/545127d6-c2d8-4cb5-9e36-241f314ef06a.png"
+              ]}
+              title="Consultório Odontológico"
+              category="Comercial"
+            />
           </div>
         </div>
       </section>
