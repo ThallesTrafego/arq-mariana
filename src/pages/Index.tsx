@@ -293,9 +293,22 @@ const Index = () => {
               title="Consultório Odontológico"
               category="Comercial"
             />
-          </div>
-        </div>
-      </section>
+        <ProjectCard
+          images={[
+            "/lovable-uploads/271340b3-5a2b-4b54-b41e-51ab3acc0ab4.png",
+            "/lovable-uploads/fde1d27b-0f60-41d6-9297-420c658ebc79.png",
+            "/lovable-uploads/3389a78c-7e93-4003-8043-d4f2c968250f.png",
+            "/lovable-uploads/0926f35e-9fcc-4621-8bd2-10c4f0da5288.png",
+            "/lovable-uploads/ba5a3661-573d-488b-8c41-17480cd5d2fc.png",
+            "/lovable-uploads/a5320c51-3ef8-4356-8878-00b0da068d32.png",
+            "/lovable-uploads/b8a4623e-1e9c-47b9-bb78-f48a3f3a1d8f.png"
+          ]}
+          title="Apartamento RA"
+          category="Residencial"
+        />
+      </div>
+    </div>
+  </section>
 
       <section className="py-12 px-4 bg-terracotta/10">
         <div className="max-w-3xl mx-auto text-center">
