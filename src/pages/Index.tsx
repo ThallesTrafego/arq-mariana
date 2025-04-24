@@ -293,22 +293,38 @@ const Index = () => {
               title="Consultório Odontológico"
               category="Comercial"
             />
-        <ProjectCard
-          images={[
-            "/lovable-uploads/271340b3-5a2b-4b54-b41e-51ab3acc0ab4.png",
-            "/lovable-uploads/fde1d27b-0f60-41d6-9297-420c658ebc79.png",
-            "/lovable-uploads/3389a78c-7e93-4003-8043-d4f2c968250f.png",
-            "/lovable-uploads/0926f35e-9fcc-4621-8bd2-10c4f0da5288.png",
-            "/lovable-uploads/ba5a3661-573d-488b-8c41-17480cd5d2fc.png",
-            "/lovable-uploads/a5320c51-3ef8-4356-8878-00b0da068d32.png",
-            "/lovable-uploads/b8a4623e-1e9c-47b9-bb78-f48a3f3a1d8f.png"
-          ]}
-          title="Apartamento RA"
-          category="Residencial"
-        />
-      </div>
-    </div>
-  </section>
+            <ProjectCard
+              images={[
+                "/lovable-uploads/271340b3-5a2b-4b54-b41e-51ab3acc0ab4.png",
+                "/lovable-uploads/fde1d27b-0f60-41d6-9297-420c658ebc79.png",
+                "/lovable-uploads/3389a78c-7e93-4003-8043-d4f2c968250f.png",
+                "/lovable-uploads/0926f35e-9fcc-4621-8bd2-10c4f0da5288.png",
+                "/lovable-uploads/ba5a3661-573d-488b-8c41-17480cd5d2fc.png",
+                "/lovable-uploads/a5320c51-3ef8-4356-8878-00b0da068d32.png",
+                "/lovable-uploads/b8a4623e-1e9c-47b9-bb78-f48a3f3a1d8f.png"
+              ]}
+              title="Apartamento RA"
+              category="Residencial"
+            />
+            <ProjectCard
+              images={[
+                "/lovable-uploads/0cc272a6-2b94-4b38-a6f0-c8da7d8c3d2c.png",
+                "/lovable-uploads/06a417a9-3664-4e2c-acd7-2cdcb1223000.png",
+                "/lovable-uploads/eee68785-8801-4014-afa0-01f846fba3f6.png",
+                "/lovable-uploads/aff69514-f638-4985-9b0f-11b390c325ca.png",
+                "/lovable-uploads/fb27a8dd-0e7a-4156-976e-b8b21f3b2223.png",
+                "/lovable-uploads/983ea70d-4928-4b77-9783-e8ba8605660c.png",
+                "/lovable-uploads/105d7b09-6249-4bba-a3ec-0a1f7ef0014a.png",
+                "/lovable-uploads/14f0cb06-465b-409d-b4c5-3ca5819f0515.png",
+                "/lovable-uploads/49a7d0a3-dd41-4830-9064-10bd69e91944.png",
+                "/lovable-uploads/d1b1e8ef-b74d-461c-8b3b-a2468bfbd030.png"
+              ]}
+              title="Projeto MF"
+              category="Residencial"
+            />
+          </div>
+        </div>
+      </section>
 
       <section className="py-12 px-4 bg-terracotta/10">
         <div className="max-w-3xl mx-auto text-center">

@@ -39,15 +39,17 @@ export const ProjectCard = ({ images, title, category }: ProjectCardProps) => {
                       <div className="h-6 w-6 animate-spin rounded-full border-2 border-terracotta border-t-transparent"></div>
                     </div>
                   )}
-                  <img
-                    src={image}
-                    alt={`${title} - Imagem ${index + 1}`}
-                    loading="lazy"
-                    onLoad={() => handleImageLoad(index)}
-                    className={`w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 ${
-                      imagesLoaded[index] ? 'opacity-100' : 'opacity-0'
-                    }`}
-                  />
+                  <div className="w-full h-full overflow-hidden">
+                    <img
+                      src={image}
+                      alt={`${title} - Imagem ${index + 1}`}
+                      loading="lazy"
+                      onLoad={() => handleImageLoad(index)}
+                      className={`w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 ${
+                        imagesLoaded[index] ? 'opacity-100' : 'opacity-0'
+                      }`}
+                    />
+                  </div>
                 </AspectRatio>
               </CarouselItem>
             ))}
