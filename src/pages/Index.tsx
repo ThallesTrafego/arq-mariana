@@ -6,9 +6,9 @@ import { ProcessStep } from "@/components/ProcessStep";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
+import { useState } from "react";
 import {
   Instagram,
-  Facebook,
   Mail,
   MapPin,
   Phone,
@@ -18,9 +18,6 @@ import {
   MonitorSmartphone,
   Star,
   Sparkles,
-  Clock,
-  Users,
-  Award,
   Heart
 } from "lucide-react";
 import {
@@ -30,11 +27,25 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
+import { ProjectGalleryModal } from "@/components/ProjectGalleryModal";
+
+interface Project {
+  title: string;
+  category: string;
+  images: string[];
+}
 
 const Index = () => {
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
+
   const scrollToProjects = () => {
     const projectsSection = document.getElementById('projects');
     projectsSection?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const setGalleryProject = (project: Project) => {
+    setSelectedProject(project);
   };
 
   return (
@@ -199,87 +210,125 @@ const Index = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <ProjectCard
-              images={[
-                "/lovable-uploads/68b68c7c-c579-45f2-bd69-3d26d9800adb.png",
-                "/lovable-uploads/221b2a36-6bbf-426f-b233-2b0af29eeb28.png",
-                "/lovable-uploads/fad82554-dcb9-4272-bf20-93f2e7b525b6.png"
-              ]}
-              title="Área Gourmet Contemporânea"
-              description="Espaço aconchegante que integra churrasqueira, cozinha e área de estar, com acabamentos em madeira e concreto aparente."
-              category="Residencial"
-            />
-            
-            <ProjectCard
-              images={[
-                "/lovable-uploads/5f744a1a-f10e-45c7-96e9-7d36fac30e1a.png",
-                "/lovable-uploads/3282f8ba-8cf7-4d46-a879-8bc974064e41.png",
-                "/lovable-uploads/a7a38df8-53db-4923-a97b-9df694bb868e.png",
-                "/lovable-uploads/43e764ba-8ef3-4ba9-b4e5-e8eb980f62d5.png",
-                "/lovable-uploads/9c80b04d-8e6e-43f8-a175-b7c8b2b99348.png",
-                "/lovable-uploads/bfa60787-db42-4b6b-93ce-d47f126e2d8a.png",
-                "/lovable-uploads/809420dd-da50-4a4a-9289-bfd26b2dd4c6.png",
-                "/lovable-uploads/c075df1c-aaa9-463d-a898-7287f8c25315.png",
-                "/lovable-uploads/9a83e810-b601-4069-a437-56873d09ccc6.png"
-              ]}
-              title="Projeto de Interiores Residencial"
-              description="Design contemporâneo que integra espaços de convivência e trabalho, com acabamentos em madeira natural e tons neutros, criando ambientes funcionais e acolhedores para o dia a dia."
-              category="Residencial"
-            />
-
-            <ProjectCard
-              images={[
-                "/lovable-uploads/9d635749-fa93-414a-b4b5-6e7408b3305f.png",
-                "/lovable-uploads/11e0f03a-0b77-45bc-a9af-2e9a78565ffa.png",
-                "/lovable-uploads/09a7d156-bfdd-4ec5-a78c-524a5ff657c9.png",
-                "/lovable-uploads/717a0912-84d5-4217-bd95-7bea5304f875.png"
-              ]}
-              title="Projeto Comercial – Free Shop New York"
-              description="Projeto comercial sofisticado que combina exposição eficiente de produtos e experiência de compra premium, com iluminação setorizada e mobiliário customizado para diferentes categorias de produtos."
-              category="Comercial"
-            />
-            <ProjectCard
-              images={[
-                "/lovable-uploads/c38d876b-ce96-4d10-bbae-c77c961a40cd.png",
-                "/lovable-uploads/16658772-15a1-4852-b7fa-c6309d242b58.png",
-                "/lovable-uploads/e6511fde-4c7b-4ab8-b6f6-5b052a5b352a.png",
-                "/lovable-uploads/fd11c6c0-702b-4d52-a572-0ff688a28f71.png",
-                "/lovable-uploads/56163cfd-9168-4a08-afb3-662171b5575e.png"
-              ]}
-              title="Projeto Comercial – Quadra de Beach Tênis"
-              description="Projeto inovador que combina área esportiva e espaço de convivência, com design moderno e sustentável, integrando elementos naturais e industriais para criar uma experiência única para os praticantes."
-              category="Comercial"
-            />
-            <ProjectCard
-              images={[
-                "/lovable-uploads/c9afff85-62f7-44d7-a636-cd92252a1fc5.png",
-                "/lovable-uploads/8f9914f5-174d-48c4-ae3c-01f07b80b305.png",
-                "/lovable-uploads/a1af207e-bc1f-4a9e-83a9-1c88a4c90c74.png",
-                "/lovable-uploads/304620a2-5d2a-489a-a3f9-31a87ca92dde.png",
-                "/lovable-uploads/8c1810bd-ece9-440d-93d9-9844bf6d880a.png",
-                "/lovable-uploads/0fdeeb0c-3dd0-4cee-9f89-f0e261def8a7.png",
-                "/lovable-uploads/462cb360-88dd-486c-a80b-f3427b41b964.png",
-                "/lovable-uploads/6d298445-e0a3-4328-a8d6-f17ef1e09138.png",
-                "/lovable-uploads/ef9b55c8-bba9-4cc3-8f95-6f834aa51d3d.png"
-              ]}
-              title="Projeto Residencial – Apartamento"
-              description="Design contemporâneo que integra espaços de convivência e trabalho, com acabamentos em madeira natural e tons neutros, criando ambientes funcionais e acolhedores para o dia a dia."
-              category="Residencial"
-            />
-            <ProjectCard
-              images={[
-                "/lovable-uploads/562e2cf8-f522-4af5-bad9-96b3399d2fc4.png",
-                "/lovable-uploads/e2b7258d-ef01-4282-b565-d519f304fea4.png",
-                "/lovable-uploads/d310c12d-9b73-45d6-a51c-3e92aa9a5b23.png",
-                "/lovable-uploads/fa4386ce-7e4b-4f49-805e-9084b4b8d06a.png"
-              ]}
-              title="Projeto Comercial – Loja Aloma Zen"
-              description="Projeto comercial que harmoniza elementos zen e modernos, com iluminação setorizada e mobiliário personalizado, criando uma atmosfera acolhedora que reflete a identidade da marca."
-              category="Comercial"
-            />
-          </div>
+          <Carousel
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+            className="relative w-full"
+          >
+            <CarouselContent className="-ml-1">
+              {[
+                {
+                  title: "Área Gourmet Contemporânea",
+                  category: "Residencial",
+                  images: [
+                    "/lovable-uploads/68b68c7c-c579-45f2-bd69-3d26d9800adb.png",
+                    "/lovable-uploads/221b2a36-6bbf-426f-b233-2b0af29eeb28.png",
+                    "/lovable-uploads/fad82554-dcb9-4272-bf20-93f2e7b525b6.png"
+                  ]
+                },
+                {
+                  title: "Projeto de Interiores Residencial",
+                  category: "Residencial",
+                  images: [
+                    "/lovable-uploads/5f744a1a-f10e-45c7-96e9-7d36fac30e1a.png",
+                    "/lovable-uploads/3282f8ba-8cf7-4d46-a879-8bc974064e41.png",
+                    "/lovable-uploads/a7a38df8-53db-4923-a97b-9df694bb868e.png",
+                    "/lovable-uploads/43e764ba-8ef3-4ba9-b4e5-e8eb980f62d5.png",
+                    "/lovable-uploads/9c80b04d-8e6e-43f8-a175-b7c8b2b99348.png",
+                    "/lovable-uploads/bfa60787-db42-4b6b-93ce-d47f126e2d8a.png",
+                    "/lovable-uploads/809420dd-da50-4a4a-9289-bfd26b2dd4c6.png",
+                    "/lovable-uploads/c075df1c-aaa9-463d-a898-7287f8c25315.png",
+                    "/lovable-uploads/9a83e810-b601-4069-a437-56873d09ccc6.png"
+                  ]
+                },
+                {
+                  title: "Projeto Comercial – Free Shop New York",
+                  category: "Comercial",
+                  images: [
+                    "/lovable-uploads/9d635749-fa93-414a-b4b5-6e7408b3305f.png",
+                    "/lovable-uploads/11e0f03a-0b77-45bc-a9af-2e9a78565ffa.png",
+                    "/lovable-uploads/09a7d156-bfdd-4ec5-a78c-524a5ff657c9.png",
+                    "/lovable-uploads/717a0912-84d5-4217-bd95-7bea5304f875.png"
+                  ]
+                },
+                {
+                  title: "Projeto Comercial – Quadra de Beach Tênis",
+                  category: "Comercial",
+                  images: [
+                    "/lovable-uploads/c38d876b-ce96-4d10-bbae-c77c961a40cd.png",
+                    "/lovable-uploads/16658772-15a1-4852-b7fa-c6309d242b58.png",
+                    "/lovable-uploads/e6511fde-4c7b-4ab8-b6f6-5b052a5b352a.png",
+                    "/lovable-uploads/fd11c6c0-702b-4d52-a572-0ff688a28f71.png",
+                    "/lovable-uploads/56163cfd-9168-4a08-afb3-662171b5575e.png"
+                  ]
+                },
+                {
+                  title: "Projeto Residencial – Apartamento",
+                  category: "Residencial",
+                  images: [
+                    "/lovable-uploads/c9afff85-62f7-44d7-a636-cd92252a1fc5.png",
+                    "/lovable-uploads/8f9914f5-174d-48c4-ae3c-01f07b80b305.png",
+                    "/lovable-uploads/a1af207e-bc1f-4a9e-83a9-1c88a4c90c74.png",
+                    "/lovable-uploads/304620a2-5d2a-489a-a3f9-31a87ca92dde.png",
+                    "/lovable-uploads/8c1810bd-ece9-440d-93d9-9844bf6d880a.png",
+                    "/lovable-uploads/0fdeeb0c-3dd0-4cee-9f89-f0e261def8a7.png",
+                    "/lovable-uploads/462cb360-88dd-486c-a80b-f3427b41b964.png",
+                    "/lovable-uploads/6d298445-e0a3-4328-a8d6-f17ef1e09138.png",
+                    "/lovable-uploads/ef9b55c8-bba9-4cc3-8f95-6f834aa51d3d.png"
+                  ]
+                },
+                {
+                  title: "Projeto Comercial – Loja Aloma Zen",
+                  category: "Comercial",
+                  images: [
+                    "/lovable-uploads/562e2cf8-f522-4af5-bad9-96b3399d2fc4.png",
+                    "/lovable-uploads/e2b7258d-ef01-4282-b565-d519f304fea4.png",
+                    "/lovable-uploads/d310c12d-9b73-45d6-a51c-3e92aa9a5b23.png",
+                    "/lovable-uploads/fa4386ce-7e4b-4f49-805e-9084b4b8d06a.png"
+                  ]
+                }
+              ].map((project, index) => (
+                <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
+                  <div className="group cursor-pointer">
+                    <div className="overflow-hidden rounded-lg">
+                      <AspectRatio ratio={4/3} className="bg-muted">
+                        <img
+                          src={project.images[0]}
+                          alt={project.title}
+                          loading="lazy"
+                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                      </AspectRatio>
+                    </div>
+                    <div className="mt-4">
+                      {project.category && (
+                        <p className="text-sm uppercase tracking-wider text-terracotta mb-1">{project.category}</p>
+                      )}
+                      <h3 className="text-xl font-adam">{project.title}</h3>
+                      <Button
+                        variant="outline"
+                        className="mt-4 rounded-full border-terracotta text-terracotta hover:bg-terracotta/10"
+                        onClick={() => setGalleryProject(project)}
+                      >
+                        Ver mais fotos do projeto
+                      </Button>
+                    </div>
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="left-0 lg:-left-12" />
+            <CarouselNext className="right-0 lg:-right-12" />
+          </Carousel>
         </div>
+
+        <ProjectGalleryModal
+          images={selectedProject?.images || []}
+          open={!!selectedProject}
+          onOpenChange={() => setSelectedProject(null)}
+        />
       </section>
 
       <section className="py-12 px-4 bg-terracotta/10">
