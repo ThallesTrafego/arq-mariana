@@ -1,3 +1,4 @@
+
 import { Header } from "@/components/Header";
 import { ProjectCard } from "@/components/ProjectCard";
 import { TestimonialCard } from "@/components/TestimonialCard";
@@ -18,7 +19,9 @@ import {
   MonitorSmartphone,
   Star,
   Sparkles,
-  Heart
+  Heart,
+  Award,
+  Users,
 } from "lucide-react";
 import {
   Carousel,
