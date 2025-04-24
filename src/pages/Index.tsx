@@ -222,7 +222,7 @@ const Index = () => {
                 "/lovable-uploads/c075df1c-aaa9-463d-a898-7287f8c25315.png",
                 "/lovable-uploads/9a83e810-b601-4069-a437-56873d09ccc6.png"
               ]}
-              title="Projeto de Interiores Residencial"
+              title="Interiores - MD"
               category="Residencial"
             />
 
@@ -259,7 +259,7 @@ const Index = () => {
                 "/lovable-uploads/6d298445-e0a3-4328-a8d6-f17ef1e09138.png",
                 "/lovable-uploads/ef9b55c8-bba9-4cc3-8f95-6f834aa51d3d.png"
               ]}
-              title="Projeto Residencial"
+              title="Interiores - Apartamento VF"
               category="Residencial"
             />
             <ProjectCard
