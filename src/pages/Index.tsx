@@ -207,7 +207,6 @@ const Index = () => {
                 "/lovable-uploads/fad82554-dcb9-4272-bf20-93f2e7b525b6.png"
               ]}
               title="Área Gourmet Contemporânea"
-              description="Espaço aconchegante que integra churrasqueira, cozinha e área de estar, com acabamentos em madeira e concreto aparente."
               category="Residencial"
             />
             
@@ -224,7 +223,6 @@ const Index = () => {
                 "/lovable-uploads/9a83e810-b601-4069-a437-56873d09ccc6.png"
               ]}
               title="Projeto de Interiores Residencial"
-              description="Design contemporâneo que integra espaços de convivência e trabalho, com acabamentos em madeira natural e tons neutros, criando ambientes funcionais e acolhedores para o dia a dia."
               category="Residencial"
             />
 
@@ -235,8 +233,7 @@ const Index = () => {
                 "/lovable-uploads/09a7d156-bfdd-4ec5-a78c-524a5ff657c9.png",
                 "/lovable-uploads/717a0912-84d5-4217-bd95-7bea5304f875.png"
               ]}
-              title="Projeto Comercial – Free Shop New York"
-              description="Projeto comercial sofisticado que combina exposição eficiente de produtos e experiência de compra premium, com iluminação setorizada e mobiliário customizado para diferentes categorias de produtos."
+              title="Free Shop New York"
               category="Comercial"
             />
             <ProjectCard
@@ -247,8 +244,7 @@ const Index = () => {
                 "/lovable-uploads/fd11c6c0-702b-4d52-a572-0ff688a28f71.png",
                 "/lovable-uploads/56163cfd-9168-4a08-afb3-662171b5575e.png"
               ]}
-              title="Projeto Comercial – Quadra de Beach Tênis"
-              description="Projeto inovador que combina área esportiva e espaço de convivência, com design moderno e sustentável, integrando elementos naturais e industriais para criar uma experiência única para os praticantes."
+              title="Quadra de Beach Tênis"
               category="Comercial"
             />
             <ProjectCard
@@ -263,8 +259,7 @@ const Index = () => {
                 "/lovable-uploads/6d298445-e0a3-4328-a8d6-f17ef1e09138.png",
                 "/lovable-uploads/ef9b55c8-bba9-4cc3-8f95-6f834aa51d3d.png"
               ]}
-              title="Projeto Residencial – Apartamento"
-              description="Design contemporâneo que integra espaços de convivência e trabalho, com acabamentos em madeira natural e tons neutros, criando ambientes funcionais e acolhedores para o dia a dia."
+              title="Projeto Residencial"
               category="Residencial"
             />
             <ProjectCard
@@ -274,8 +269,18 @@ const Index = () => {
                 "/lovable-uploads/d310c12d-9b73-45d6-a51c-3e92aa9a5b23.png",
                 "/lovable-uploads/fa4386ce-7e4b-4f49-805e-9084b4b8d06a.png"
               ]}
-              title="Projeto Comercial – Loja Aloma Zen"
-              description="Projeto comercial que harmoniza elementos zen e modernos, com iluminação setorizada e mobiliário personalizado, criando uma atmosfera acolhedora que reflete a identidade da marca."
+              title="Loja Aloma Zen"
+              category="Comercial"
+            />
+            <ProjectCard
+              images={[
+                "/lovable-uploads/3d8e6849-1fbd-4fd9-a397-1a9dfe89f2a1.png",
+                "/lovable-uploads/d321b2b0-b6ff-4006-ac8f-24e66a9f482a.png",
+                "/lovable-uploads/f8c05891-dcec-41ac-9190-268bff31c38f.png",
+                "/lovable-uploads/a1274ee9-6fdd-42ec-abab-c930cad73e6b.png",
+                "/lovable-uploads/13585f8a-e3e6-4cfb-bc43-1181ca8f02d1.png"
+              ]}
+              title="Loja Teka"
               category="Comercial"
             />
           </div>

@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { AspectRatio } from "./ui/aspect-ratio";
 import { Button } from "./ui/button";
@@ -13,11 +14,11 @@ import { ProjectGalleryModal } from "./ProjectGalleryModal";
 interface ProjectCardProps {
   images: string[];
   title: string;
-  description: string;
+  description?: string;
   category?: string;
 }
 
-export const ProjectCard = ({ images, title, description, category }: ProjectCardProps) => {
+export const ProjectCard = ({ images, title, category }: ProjectCardProps) => {
   const [galleryOpen, setGalleryOpen] = useState(false);
   const [imagesLoaded, setImagesLoaded] = useState<Record<number, boolean>>({});
 
@@ -59,8 +60,7 @@ export const ProjectCard = ({ images, title, description, category }: ProjectCar
         {category && (
           <p className="text-sm uppercase tracking-wider text-terracotta mb-1">{category}</p>
         )}
-        <h3 className="text-xl font-adam">{title}</h3>
-        <p className="text-neutral-600 mt-1 mb-4">{description}</p>
+        <h3 className="text-xl font-adam mb-4">{title}</h3>
         <Button
           variant="outline"
           className="rounded-full border-terracotta text-terracotta hover:bg-terracotta/10"
