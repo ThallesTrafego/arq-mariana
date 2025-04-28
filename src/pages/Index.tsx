@@ -249,11 +249,15 @@ const Index = () => {
             />
             <ProjectCard
               images={[
-                "/lovable-uploads/b1.webp",
-                "/lovable-uploads/b2v2.webp",
-                "/lovable-uploads/b3.webp",
-                "/lovable-uploads/b4.webp",
-                "/lovable-uploads/b5.webp"
+                "/lovable-uploads/c9afff85-62f7-44d7-a636-cd92252a1fc5.png",
+                "/lovable-uploads/8f9914f5-174d-48c4-ae3c-01f07b80b305.png",
+                "/lovable-uploads/a1af207e-bc1f-4a9e-83a9-1c88a4c90c74.png",
+                "/lovable-uploads/304620a2-5d2a-489a-a3f9-31a87ca92dde.png",
+                "/lovable-uploads/8c1810bd-ece9-440d-93d9-9844bf6d880a.png",
+                "/lovable-uploads/0fdeeb0c-3dd0-4cee-9f89-f0e261def8a7.png",
+                "/lovable-uploads/462cb360-88dd-486c-a80b-f3427b41b964.png",
+                "/lovable-uploads/6d298445-e0a3-4328-a8d6-f17ef1e09138.png",
+                "/lovable-uploads/ef9b55c8-bba9-4cc3-8f95-6f834aa51d3d.png"
               ]}
               title="Interiores - Apartamento VF"
               category="Residencial"
