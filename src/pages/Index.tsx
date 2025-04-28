@@ -250,7 +250,7 @@ const Index = () => {
             <ProjectCard
               images={[
                 "/lovable-uploads/b1.webp",
-                "/lovable-uploads/b2.webp",
+                "/lovable-uploads/beach2.webp",
                 "/lovable-uploads/b3.webp",
                 "/lovable-uploads/b4.webp",
                 "/lovable-uploads/b5.webp"
