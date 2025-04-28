@@ -212,9 +212,15 @@ const Index = () => {
             
             <ProjectCard
               images={[
-                "/lovable-uploads/g1.webp",
-                "/lovable-uploads/g2.webp",
-                "/lovable-uploads/g3.webp"
+                "/lovable-uploads/5f744a1a-f10e-45c7-96e9-7d36fac30e1a.png",
+                "/lovable-uploads/3282f8ba-8cf7-4d46-a879-8bc974064e41.png",
+                "/lovable-uploads/a7a38df8-53db-4923-a97b-9df694bb868e.png",
+                "/lovable-uploads/43e764ba-8ef3-4ba9-b4e5-e8eb980f62d5.png",
+                "/lovable-uploads/9c80b04d-8e6e-43f8-a175-b7c8b2b99348.png",
+                "/lovable-uploads/bfa60787-db42-4b6b-93ce-d47f126e2d8a.png",
+                "/lovable-uploads/809420dd-da50-4a4a-9289-bfd26b2dd4c6.png",
+                "/lovable-uploads/c075df1c-aaa9-463d-a898-7287f8c25315.png",
+                "/lovable-uploads/9a83e810-b601-4069-a437-56873d09ccc6.png"
               ]}
               title="Interiores - MD"
               category="Residencial"
@@ -243,11 +249,15 @@ const Index = () => {
             />
             <ProjectCard
               images={[
-                "/lovable-uploads/b1.webp",
-                "/lovable-uploads/beach2.webp",
-                "/lovable-uploads/b3.webp",
-                "/lovable-uploads/b4.webp",
-                "/lovable-uploads/b5.webp"
+                "/lovable-uploads/c9afff85-62f7-44d7-a636-cd92252a1fc5.png",
+                "/lovable-uploads/8f9914f5-174d-48c4-ae3c-01f07b80b305.png",
+                "/lovable-uploads/a1af207e-bc1f-4a9e-83a9-1c88a4c90c74.png",
+                "/lovable-uploads/304620a2-5d2a-489a-a3f9-31a87ca92dde.png",
+                "/lovable-uploads/8c1810bd-ece9-440d-93d9-9844bf6d880a.png",
+                "/lovable-uploads/0fdeeb0c-3dd0-4cee-9f89-f0e261def8a7.png",
+                "/lovable-uploads/462cb360-88dd-486c-a80b-f3427b41b964.png",
+                "/lovable-uploads/6d298445-e0a3-4328-a8d6-f17ef1e09138.png",
+                "/lovable-uploads/ef9b55c8-bba9-4cc3-8f95-6f834aa51d3d.png"
               ]}
               title="Interiores - Apartamento VF"
               category="Residencial"
