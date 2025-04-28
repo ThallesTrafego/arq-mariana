@@ -212,15 +212,9 @@ const Index = () => {
             
             <ProjectCard
               images={[
-                "/lovable-uploads/5f744a1a-f10e-45c7-96e9-7d36fac30e1a.png",
-                "/lovable-uploads/3282f8ba-8cf7-4d46-a879-8bc974064e41.png",
-                "/lovable-uploads/a7a38df8-53db-4923-a97b-9df694bb868e.png",
-                "/lovable-uploads/43e764ba-8ef3-4ba9-b4e5-e8eb980f62d5.png",
-                "/lovable-uploads/9c80b04d-8e6e-43f8-a175-b7c8b2b99348.png",
-                "/lovable-uploads/bfa60787-db42-4b6b-93ce-d47f126e2d8a.png",
-                "/lovable-uploads/809420dd-da50-4a4a-9289-bfd26b2dd4c6.png",
-                "/lovable-uploads/c075df1c-aaa9-463d-a898-7287f8c25315.png",
-                "/lovable-uploads/9a83e810-b601-4069-a437-56873d09ccc6.png"
+                "/lovable-uploads/g1.webp",
+                "/lovable-uploads/g2.webp",
+                "/lovable-uploads/g3.webp"
               ]}
               title="Interiores - MD"
               category="Residencial"
