@@ -61,7 +61,7 @@ export const Header = () => {
           <div className="flex items-center space-x-4">
             <a href="/" className="block w-48">
               <img 
-                src="/lovable-uploads/11586276-04f3-4c9c-826a-83edf3c6a686.png"
+                src="/lovable-uploads/5480dd9a-41a7-4f1e-9a62-5ceeb043ea70.png"
                 alt="Mariana Mello Arquitetura e Interiores"
                 className="w-full"
               />
