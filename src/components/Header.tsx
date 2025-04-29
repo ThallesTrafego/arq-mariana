@@ -1,3 +1,4 @@
+
 import { Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import { Button } from "./ui/button";
@@ -58,10 +59,10 @@ export const Header = () => {
       <div className="max-w-7xl mx-auto px-4 py-4">
         <nav className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <a href="/" className="block w-32">
+            <a href="/" className="block w-48">
               <img 
-                src="/lovable-uploads/eac2bf34-a694-4856-8ab5-2b71afac2228.png"
-                alt="Mariana Mello Arquitetura e Decoração"
+                src="/lovable-uploads/5480dd9a-41a7-4f1e-9a62-5ceeb043ea70.png"
+                alt="Mariana Mello Arquitetura e Interiores"
                 className="w-full"
               />
             </a>
