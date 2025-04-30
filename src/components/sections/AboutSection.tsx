@@ -19,12 +19,13 @@ export const AboutSection = () => {
             <span className="text-sm uppercase tracking-wider text-terracotta">Conheça</span>
             <h2 className="text-3xl md:text-4xl font-adam mb-6">Mariana Mello</h2>
             <p className="text-neutral-600 mb-4">
-              Formada pela Universidade Franciscana (UFN), Mariana Mello dedica sua carreira à 
-              criação de ambientes que refletem a personalidade e estilo de vida de seus clientes.
+              Sou arquiteta e artista por natureza, apaixonada por criar espaços que fazem sentido para quem vive neles. À frente da MM Arquitetura, um escritório online com atendimento humanizado e olhar autoral, desenvolvo projetos residenciais e comerciais que aliam estética, funcionalidade e emoção.
+            </p>
+            <p className="text-neutral-600 mb-4">
+              Acredito que arquitetura vai muito além de paredes e medidas — ela carrega histórias, traduz sonhos e transforma a forma como nos sentimos e vivemos o cotidiano. Por isso, meu processo é pautado pela escuta ativa, pelo cuidado em cada detalhe e pelo compromisso em entregar soluções criativas, viáveis e únicas para cada cliente.
             </p>
             <p className="text-neutral-600 mb-6">
-              Com um olhar sensível e atento aos detalhes, ela transforma espaços em experiências 
-              únicas, combinando funcionalidade, estética e o DNA de cada cliente em seus projetos.
+              Cada projeto nasce da essência de quem o habita. É assim que coloco em prática meu propósito: arquitetura que reflete você. Uma arquitetura feita com empatia, sensibilidade e responsabilidade, que respeita seus desejos, seu estilo de vida e o momento que você está vivendo. Porque mais do que um espaço bonito, o que realmente importa é criar um lugar que te acolha, que te represente — e que seja, verdadeiramente, seu.
             </p>
             <div className="flex flex-wrap gap-4 mt-8">
               <div className="flex items-center">
