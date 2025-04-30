@@ -26,15 +26,19 @@ export const ProjectsSection = () => {
           
           <ProjectCard
             images={[
-              "/lovable-uploads/5f744a1a-f10e-45c7-96e9-7d36fac30e1a.png",
-              "/lovable-uploads/3282f8ba-8cf7-4d46-a879-8bc974064e41.png",
-              "/lovable-uploads/a7a38df8-53db-4923-a97b-9df694bb868e.png",
-              "/lovable-uploads/43e764ba-8ef3-4ba9-b4e5-e8eb980f62d5.png",
-              "/lovable-uploads/9c80b04d-8e6e-43f8-a175-b7c8b2b99348.png",
-              "/lovable-uploads/bfa60787-db42-4b6b-93ce-d47f126e2d8a.png",
-              "/lovable-uploads/809420dd-da50-4a4a-9289-bfd26b2dd4c6.png",
-              "/lovable-uploads/c075df1c-aaa9-463d-a898-7287f8c25315.png",
-              "/lovable-uploads/9a83e810-b601-4069-a437-56873d09ccc6.png"
+              "/lovable-uploads/92de2557-ba5a-4aad-8de2-1f83e2e430ed.png",
+              "/lovable-uploads/1f1b9e5b-d133-4bea-a14b-24cb53c79ce8.png",
+              "/lovable-uploads/3dd26fc3-8dd8-4891-ae34-1e153e09c8fb.png",
+              "/lovable-uploads/cf40909e-6522-4356-868e-e12df8440edd.png",
+              "/lovable-uploads/5c34539e-aa4b-4e7c-a065-ba8d9160bc04.png",
+              "/lovable-uploads/6ea6e5a2-9720-4acd-80d1-8881778723b5.png",
+              "/lovable-uploads/6ea2bd1e-e515-4ff9-ae0d-aa3a5070b359.png",
+              "/lovable-uploads/66487159-a19b-40ec-8d08-6c44d58b90f7.png",
+              "/lovable-uploads/f9ee42df-6e96-46db-9292-d71ab60493c6.png",
+              "/lovable-uploads/0853bd25-7238-49f6-aad4-050bdffe992b.png",
+              "/lovable-uploads/c22be943-75bc-43b1-9bae-3b740eb90901.png",
+              "/lovable-uploads/fd076955-513d-4c30-b371-71d340aa9fb6.png",
+              "/lovable-uploads/7fd43bb7-695d-426f-bd3f-c951b68f4b39.png"
             ]}
             title="Interiores - MD"
             category="Residencial"
