@@ -59,9 +59,9 @@ export const Header = () => {
       <div className="max-w-7xl mx-auto px-4 py-4">
         <nav className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <a href="/" className="block w-48">
+            <a href="/" className="block w-56">
               <img 
-                src="/lovable-uploads/2d08a79c-aa43-4fae-a179-ceb6aa529ef5.png"
+                src="/lovable-uploads/ace696a6-eefb-48ee-90ca-d6ec8312d787.png"
                 alt="Mariana Mello Arquitetura e Interiores"
                 className="w-full"
               />
