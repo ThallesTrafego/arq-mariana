@@ -54,6 +54,7 @@ export const ProjectsSection = () => {
             title="Free Shop New York"
             category="Comercial"
           />
+          
           <ProjectCard
             images={[
               "/lovable-uploads/c38d876b-ce96-4d10-bbae-c77c961a40cd.png",
@@ -65,6 +66,7 @@ export const ProjectsSection = () => {
             title="Quadra de Beach Tênis"
             category="Comercial"
           />
+          
           <ProjectCard
             images={[
               "/lovable-uploads/c9afff85-62f7-44d7-a636-cd92252a1fc5.png",
@@ -80,6 +82,7 @@ export const ProjectsSection = () => {
             title="Interiores - Apartamento VF"
             category="Residencial"
           />
+          
           <ProjectCard
             images={[
               "/lovable-uploads/562e2cf8-f522-4af5-bad9-96b3399d2fc4.png",
@@ -90,6 +93,7 @@ export const ProjectsSection = () => {
             title="Loja Aloma Zen"
             category="Comercial"
           />
+          
           <ProjectCard
             images={[
               "/lovable-uploads/3d8e6849-1fbd-4fd9-a397-1a9dfe89f2a1.png",
@@ -101,6 +105,7 @@ export const ProjectsSection = () => {
             title="Loja Teka"
             category="Comercial"
           />
+          
           <ProjectCard
             images={[
               "/lovable-uploads/22a2a92d-fd77-471a-b369-360c974f7061.png",
@@ -111,6 +116,7 @@ export const ProjectsSection = () => {
             title="Consultório Odontológico"
             category="Comercial"
           />
+          
           <ProjectCard
             images={[
               "/lovable-uploads/271340b3-5a2b-4b54-b41e-51ab3acc0ab4.png",
@@ -124,6 +130,7 @@ export const ProjectsSection = () => {
             title="Apartamento RA"
             category="Residencial"
           />
+          
           <ProjectCard
             images={[
               "/lovable-uploads/0cc272a6-2b94-4b38-a6f0-c8da7d8c3d2c.png",
@@ -140,6 +147,7 @@ export const ProjectsSection = () => {
             title="Projeto MF"
             category="Residencial"
           />
+          
           <ProjectCard
             images={[
               "/lovable-uploads/10975b4b-0797-43cc-9a10-87121dbca50b.png",
