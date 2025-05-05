@@ -69,15 +69,20 @@ export const ProjectsSection = () => {
           
           <ProjectCard
             images={[
-              "/lovable-uploads/c9afff85-62f7-44d7-a636-cd92252a1fc5.png",
-              "/lovable-uploads/8f9914f5-174d-48c4-ae3c-01f07b80b305.png",
-              "/lovable-uploads/a1af207e-bc1f-4a9e-83a9-1c88a4c90c74.png",
-              "/lovable-uploads/304620a2-5d2a-489a-a3f9-31a87ca92dde.png",
-              "/lovable-uploads/8c1810bd-ece9-440d-93d9-9844bf6d880a.png",
-              "/lovable-uploads/0fdeeb0c-3dd0-4cee-9f89-f0e261def8a7.png",
-              "/lovable-uploads/462cb360-88dd-486c-a80b-f3427b41b964.png",
-              "/lovable-uploads/6d298445-e0a3-4328-a8d6-f17ef1e09138.png",
-              "/lovable-uploads/ef9b55c8-bba9-4cc3-8f95-6f834aa51d3d.png"
+              "/lovable-uploads/89f22a93-3161-4815-9059-05e0949732cd.png",
+              "/lovable-uploads/2ba8083d-ed7f-4fc1-a4cb-8de5e30941b3.png",
+              "/lovable-uploads/18659c49-6ddd-473e-80e8-615f7fe4f96c.png",
+              "/lovable-uploads/9bf8ffd6-92d9-428b-9c74-a5f4331a2b6f.png",
+              "/lovable-uploads/489acd97-5d7a-4643-987c-6af3677b2046.png",
+              "/lovable-uploads/57b5cd46-a3dd-41ad-ac02-bcdd15446532.png",
+              "/lovable-uploads/8056970e-e8ff-46e5-8dfe-0525d00e5bd3.png",
+              "/lovable-uploads/09fc42f2-fa98-469b-82ca-c365417900cf.png",
+              "/lovable-uploads/dd5b5d82-674a-4425-92b8-b2564aca7c04.png",
+              "/lovable-uploads/a38dd064-dce2-48bf-8745-d4bb4765aeda.png",
+              "/lovable-uploads/7919844e-e089-486f-948d-6809d805e8f9.png",
+              "/lovable-uploads/c14faecc-fab3-46d1-a2c1-66a0b1cb473b.png",
+              "/lovable-uploads/ec8771a4-3848-4bb6-9727-e2905a06bd3c.png",
+              "/lovable-uploads/9c436e6a-c27e-4790-8bd8-4713c8d04943.png"
             ]}
             title="Interiores - Apartamento VF"
             category="Residencial"
