@@ -85,10 +85,10 @@ export const ProjectsSection = () => {
           
           <ProjectCard
             images={[
-              "/lovable-uploads/562e2cf8-f522-4af5-bad9-96b3399d2fc4.png",
-              "/lovable-uploads/e2b7258d-ef01-4282-b565-d519f304fea4.png",
-              "/lovable-uploads/d310c12d-9b73-45d6-a51c-3e92aa9a5b23.png",
-              "/lovable-uploads/fa4386ce-7e4b-4f49-805e-9084b4b8d06a.png"
+              "/lovable-uploads/cefeeae3-ae79-497d-a909-2c53719da5da.png",
+              "/lovable-uploads/02664abb-8e77-4fcb-acfd-1b5b2993a3ca.png",
+              "/lovable-uploads/4aaa316b-5757-4d8e-b0fa-5006b31154c1.png",
+              "/lovable-uploads/043646d5-48e3-4914-b96f-9eecd9334287.png"
             ]}
             title="Loja Aloma Zen"
             category="Comercial"
