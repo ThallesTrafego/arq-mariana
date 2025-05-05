@@ -55,13 +55,14 @@ export const ProjectsSection = () => {
             category="Comercial"
           />
           
+          {/* Aqui atualizamos as imagens do projeto "Quadra de Beach Tênis" */}
           <ProjectCard
             images={[
-              "/lovable-uploads/c38d876b-ce96-4d10-bbae-c77c961a40cd.png",
-              "/lovable-uploads/16658772-15a1-4852-b7fa-c6309d242b58.png",
-              "/lovable-uploads/e6511fde-4c7b-4ab8-b6f6-5b052a5b352a.png",
-              "/lovable-uploads/fd11c6c0-702b-4d52-a572-0ff688a28f71.png",
-              "/lovable-uploads/56163cfd-9168-4a08-afb3-662171b5575e.png"
+              "/lovable-uploads/3dfbbb08-a68b-4262-a869-4e313a029ec6.png",
+              "/lovable-uploads/a90483be-d808-4e28-be08-cdd49e277e9a.png",
+              "/lovable-uploads/94c3936f-d71b-47f2-a781-ea2753694dd2.png",
+              "/lovable-uploads/8c7efcf2-acab-4643-b766-a70ccedf17d9.png",
+              "/lovable-uploads/75e00984-f302-4635-bd5e-9fa87b313309.png"
             ]}
             title="Quadra de Beach Tênis"
             category="Comercial"

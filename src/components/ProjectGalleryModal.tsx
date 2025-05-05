@@ -73,7 +73,7 @@ export const ProjectGalleryModal = ({ images, open, onOpenChange }: ProjectGalle
             <img
               src={images[currentImageIndex]}
               alt={`Imagem ${currentImageIndex + 1}`}
-              loading="eager"
+              loading="lazy"
               onLoad={(e) => handleImageLoad(currentImageIndex, e)}
               className={`max-w-full max-h-full object-contain transition-opacity duration-300 ${
                 loadedImages[currentImageIndex] ? 'opacity-100' : 'opacity-0'
@@ -87,6 +87,7 @@ export const ProjectGalleryModal = ({ images, open, onOpenChange }: ProjectGalle
                   <img 
                     key={`preload-${index}`}
                     src={images[index]} 
+                    loading="lazy"
                     onLoad={(e) => handleImageLoad(index, e)}
                     alt=""
                   />
