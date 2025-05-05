@@ -12,7 +12,7 @@ export const HeroSection = ({ onScrollToProjects }: HeroSectionProps) => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url("/lovable-uploads/297c688e-2350-409e-855b-b717e7b8ed66.png")',
+          backgroundImage: 'url("/lovable-uploads/5a0f12c2-219f-41d5-8487-d4b95390847b.png")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
