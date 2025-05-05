@@ -16,9 +16,9 @@ export const ProjectsSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <ProjectCard
             images={[
-              "/lovable-uploads/68b68c7c-c579-45f2-bd69-3d26d9800adb.png",
-              "/lovable-uploads/221b2a36-6bbf-426f-b233-2b0af29eeb28.png",
-              "/lovable-uploads/fad82554-dcb9-4272-bf20-93f2e7b525b6.png"
+              "/lovable-uploads/5f3f3c6c-b86b-414b-abed-727bd553297e.png",
+              "/lovable-uploads/3cbba94b-e565-4dfb-9097-e441de05e141.png",
+              "/lovable-uploads/cdadba65-b366-4b41-9b20-d5427a8826f8.png"
             ]}
             title="Área Gourmet Contemporânea"
             category="Residencial"
