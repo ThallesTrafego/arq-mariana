@@ -20,7 +20,7 @@ export const TestimonialCard = ({ quote, author, role, image }: TestimonialCardP
       <footer className="flex items-center mt-4">
         {image && (
           <div className="mr-4 w-12 h-12 rounded-full overflow-hidden">
-            <img src={image} alt={author} className="w-full h-full object-cover" />
+            <img src={image} alt={author} className="w-full h-full object-cover" loading="lazy" />
           </div>
         )}
         <cite className="not-italic">
