@@ -46,10 +46,10 @@ export const ProjectsSection = () => {
 
           <ProjectCard
             images={[
-              "/lovable-uploads/9d635749-fa93-414a-b4b5-6e7408b3305f.png",
-              "/lovable-uploads/11e0f03a-0b77-45bc-a9af-2e9a78565ffa.png",
-              "/lovable-uploads/09a7d156-bfdd-4ec5-a78c-524a5ff657c9.png",
-              "/lovable-uploads/717a0912-84d5-4217-bd95-7bea5304f875.png"
+              "/lovable-uploads/b6360c30-81cd-4c04-b38f-c72b045065e1.png",
+              "/lovable-uploads/a92689f8-7f73-415b-af3a-634312cf655c.png",
+              "/lovable-uploads/e2a29845-3a77-48b2-93ff-e7173d4ffd56.png",
+              "/lovable-uploads/1ccdab5c-0189-47aa-9ea9-8ca7427a54b0.png"
             ]}
             title="Free Shop New York"
             category="Comercial"
