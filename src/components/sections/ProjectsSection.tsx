@@ -67,7 +67,20 @@ export const ProjectsSection = () => {
             category="Comercial"
           />
           
-          {/* Novo projeto: Retifica de Motores - De Rosso */}
+          {/* Novo projeto: Fachada EV */}
+          <ProjectCard
+            images={[
+              "/lovable-uploads/7229334e-dd95-450c-a10f-c279558d2d6c.png",
+              "/lovable-uploads/a7d0cef2-926d-4019-adf2-2f616218865b.png",
+              "/lovable-uploads/8611d3f6-bb92-46e0-963b-d9336f00ad73.png",
+              "/lovable-uploads/27a280ca-2b7e-49aa-82ec-85301daf6aec.png",
+              "/lovable-uploads/a1ca2a8b-ed59-4264-9652-6d3e2483f7dc.png",
+              "/lovable-uploads/6ccd40ca-6ade-4dfd-b9c8-dddbe57dd2ff.png"
+            ]}
+            title="Fachada EV"
+            category="Residencial"
+          />
+          
           <ProjectCard
             images={[
               "/lovable-uploads/f9d3da6c-885e-4ad6-b8e8-cd69e6606961.png",
