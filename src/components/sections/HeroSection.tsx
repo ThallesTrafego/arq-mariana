@@ -33,7 +33,7 @@ export const HeroSection = ({ onScrollToProjects }: HeroSectionProps) => {
             <WhatsAppButton text="Quero transformar meu ambiente" className="bg-terracotta hover:bg-terracotta/90" />
             <Button 
               variant="outline" 
-              className="rounded-full border-2 border-white text-white hover:bg-white/20 transition-all"
+              className="rounded-full border-2 border-terracotta bg-terracotta/80 text-white hover:bg-terracotta hover:border-terracotta transition-all"
               onClick={onScrollToProjects}
             >
               Ver Portfólio
