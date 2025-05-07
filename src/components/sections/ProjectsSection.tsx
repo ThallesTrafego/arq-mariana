@@ -94,6 +94,27 @@ export const ProjectsSection = () => {
             category="Comercial"
           />
           
+          {/* Novo projeto: Projeto EV */}
+          <ProjectCard
+            images={[
+              "/lovable-uploads/375a2a10-a276-496f-a8d4-71d0062d0661.png",
+              "/lovable-uploads/59f19d66-1a07-4cb7-9179-79460ef68795.png",
+              "/lovable-uploads/afe5a62d-f04a-4e6f-a154-7a3fb0e58931.png",
+              "/lovable-uploads/16338ecf-af24-46bd-8120-83768fe85d82.png",
+              "/lovable-uploads/c6b052a2-d0e0-4890-be96-c82decc4c981.png",
+              "/lovable-uploads/1083b60e-7734-4fe6-b245-19cf56814190.png",
+              "/lovable-uploads/2944d27e-9076-417a-a05d-2e389a726c26.png",
+              "/lovable-uploads/4ad7b866-a9cb-43d2-babd-13e320123f8c.png",
+              "/lovable-uploads/e567c881-c31e-4318-bf15-b9c2a3f81185.png",
+              "/lovable-uploads/94898e97-8efd-413e-9519-943cc4453527.png",
+              "/lovable-uploads/fff45b68-7a86-4a7e-a847-a9e281379bf5.png",
+              "/lovable-uploads/e9bd886c-55e4-4d4f-8a75-f95911a7be56.png",
+              "/lovable-uploads/eb62d674-f21a-4f45-a5f8-be0adfb2126c.png"
+            ]}
+            title="Projeto EV"
+            category="Residencial"
+          />
+          
           <ProjectCard
             images={[
               "/lovable-uploads/7919844e-e089-486f-948d-6809d805e8f9.png",
