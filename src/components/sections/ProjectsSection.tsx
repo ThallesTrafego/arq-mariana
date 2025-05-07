@@ -55,7 +55,6 @@ export const ProjectsSection = () => {
             category="Comercial"
           />
           
-          {/* Aqui atualizamos as imagens do projeto "Quadra de Beach Tênis" */}
           <ProjectCard
             images={[
               "/lovable-uploads/3dfbbb08-a68b-4262-a869-4e313a029ec6.png",
@@ -65,6 +64,20 @@ export const ProjectsSection = () => {
               "/lovable-uploads/75e00984-f302-4635-bd5e-9fa87b313309.png"
             ]}
             title="Quadra de Beach Tênis"
+            category="Comercial"
+          />
+          
+          {/* Novo projeto: Retifica de Motores - De Rosso */}
+          <ProjectCard
+            images={[
+              "/lovable-uploads/f9d3da6c-885e-4ad6-b8e8-cd69e6606961.png",
+              "/lovable-uploads/fef69522-cda5-4de7-a5a6-c2b105c19adc.png",
+              "/lovable-uploads/4ac3c076-bd44-4675-8e97-0f511a0365e5.png", 
+              "/lovable-uploads/cc64aed2-c9d3-4554-af64-74700170853f.png",
+              "/lovable-uploads/f7c865af-0bc3-4018-88a0-e1e233b63c64.png",
+              "/lovable-uploads/b18653d7-6905-487f-b5f6-733cdfeff431.png"
+            ]}
+            title="Retifica de Motores - De Rosso"
             category="Comercial"
           />
           
