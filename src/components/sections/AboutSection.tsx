@@ -8,7 +8,7 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="relative">
             <img 
-              src="/lovable-uploads/c46e4288-35eb-4f1f-b9dd-6cc1944b13a0.png"
+              src="/lovable-uploads/e7a6f9df-8884-49b2-97e9-a9c64886e61f.png"
               alt="Mariana Mello - Arquiteta"
               className="rounded-lg shadow-xl w-full object-cover"
               loading="lazy"
