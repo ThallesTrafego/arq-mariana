@@ -183,7 +183,7 @@ export const projectsData: ProjectData[] = [
       "/lovable-uploads/c468bfbb-7ebb-4bbf-bc01-e9b1dd6b197a.png",
       "/lovable-uploads/e01abe8e-1e9a-4e67-8776-97e76632b71a.png"
     ],
-    title: "Consultório de terapia corporal",
+    title: "Consultório de Terapia Corporal",
     category: "Comercial"
   }
 ];
