@@ -12,7 +12,7 @@ export const projectsData: ProjectData[] = [
       "/lovable-uploads/3cbba94b-e565-4dfb-9097-e441de05e141.png",
       "/lovable-uploads/cdadba65-b366-4b41-9b20-d5427a8826f8.png"
     ],
-    title: "Área Gourmet Contemporânea",
+    title: "Consultoria - Área Gourmet",
     category: "Residencial"
   },
   {
@@ -172,7 +172,7 @@ export const projectsData: ProjectData[] = [
       "/lovable-uploads/49a7d0a3-dd41-4830-9064-10bd69e91944.png",
       "/lovable-uploads/d1b1e8ef-b74d-461c-8b3b-a2468bfbd030.png"
     ],
-    title: "Interiores - Apartamento Rosane e Antônio",
+    title: "Interiores - Mirian e Felipe",
     category: "Residencial"
   },
   {
