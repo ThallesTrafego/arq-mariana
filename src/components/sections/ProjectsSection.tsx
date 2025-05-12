@@ -1,3 +1,4 @@
+
 import { ProjectCard } from "@/components/ProjectCard";
 
 export const ProjectsSection = () => {
@@ -43,10 +44,11 @@ export const ProjectsSection = () => {
             category="Residencial"
           />
 
+          {/* Free Shop New York - Reordered images (2nd image moved to 1st position) */}
           <ProjectCard
             images={[
+              "/lovable-uploads/a92689f8-7f73-415b-af3a-634312cf655c.png", 
               "/lovable-uploads/b6360c30-81cd-4c04-b38f-c72b045065e1.png",
-              "/lovable-uploads/a92689f8-7f73-415b-af3a-634312cf655c.png",
               "/lovable-uploads/e2a29845-3a77-48b2-93ff-e7173d4ffd56.png",
               "/lovable-uploads/1ccdab5c-0189-47aa-9ea9-8ca7427a54b0.png"
             ]}
@@ -54,11 +56,12 @@ export const ProjectsSection = () => {
             category="Comercial"
           />
           
+          {/* Quadra de Beach Tênis - Reordered images (3rd image moved to 1st position) */}
           <ProjectCard
             images={[
+              "/lovable-uploads/94c3936f-d71b-47f2-a781-ea2753694dd2.png", 
               "/lovable-uploads/3dfbbb08-a68b-4262-a869-4e313a029ec6.png",
               "/lovable-uploads/a90483be-d808-4e28-be08-cdd49e277e9a.png",
-              "/lovable-uploads/94c3936f-d71b-47f2-a781-ea2753694dd2.png",
               "/lovable-uploads/8c7efcf2-acab-4643-b766-a70ccedf17d9.png",
               "/lovable-uploads/75e00984-f302-4635-bd5e-9fa87b313309.png"
             ]}
@@ -66,7 +69,6 @@ export const ProjectsSection = () => {
             category="Comercial"
           />
           
-          {/* Projeto atualizado: Dormitório Conrado (anteriormente Fachada EV) */}
           <ProjectCard
             images={[
               "/lovable-uploads/b95a4a6b-cb28-4ef2-b97f-042ee830d777.png",
@@ -77,10 +79,11 @@ export const ProjectsSection = () => {
             category="Residencial"
           />
           
+          {/* Retifica de Motores - De Rosso - Reordered images (2nd image moved to 1st position) */}
           <ProjectCard
             images={[
+              "/lovable-uploads/fef69522-cda5-4de7-a5a6-c2b105c19adc.png", 
               "/lovable-uploads/f9d3da6c-885e-4ad6-b8e8-cd69e6606961.png",
-              "/lovable-uploads/fef69522-cda5-4de7-a5a6-c2b105c19adc.png",
               "/lovable-uploads/4ac3c076-bd44-4675-8e97-0f511a0365e5.png", 
               "/lovable-uploads/cc64aed2-c9d3-4554-af64-74700170853f.png",
               "/lovable-uploads/f7c865af-0bc3-4018-88a0-e1e233b63c64.png",
@@ -213,3 +216,4 @@ export const ProjectsSection = () => {
     </section>
   );
 };
+
