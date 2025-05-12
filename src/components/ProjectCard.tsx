@@ -62,7 +62,7 @@ export const ProjectCard = ({ images, title, category }: ProjectCardProps) => {
         {category && (
           <p className="text-sm uppercase tracking-wider text-terracotta mb-1">{category}</p>
         )}
-        <h3 className="text-xl font-adam mb-4">{title}</h3>
+        <h3 className="text-xl font-seasons mb-4">{title}</h3>
         <Button
           variant="outline"
           className="rounded-full border-terracotta text-terracotta hover:bg-terracotta/10"
@@ -76,6 +76,7 @@ export const ProjectCard = ({ images, title, category }: ProjectCardProps) => {
         images={images}
         open={galleryOpen}
         onOpenChange={setGalleryOpen}
+        title={title}
       />
     </div>
   );

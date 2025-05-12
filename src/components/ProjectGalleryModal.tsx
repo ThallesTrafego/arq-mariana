@@ -8,9 +8,15 @@ interface ProjectGalleryModalProps {
   images: string[];
   open: boolean;
   onOpenChange: (open: boolean) => void;
+  title?: string;
 }
 
-export const ProjectGalleryModal = ({ images, open, onOpenChange }: ProjectGalleryModalProps) => {
+export const ProjectGalleryModal = ({ 
+  images, 
+  open, 
+  onOpenChange,
+  title
+}: ProjectGalleryModalProps) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [loadedImages, setLoadedImages] = useState<Record<number, boolean>>({});
   const [preloadedIndexes, setPreloadedIndexes] = useState<number[]>([]);

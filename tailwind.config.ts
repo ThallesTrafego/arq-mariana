@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -21,6 +22,7 @@ export default {
       fontFamily: {
         adam: ["ADAM", "sans-serif"],
         century: ["Century Gothic", "sans-serif"],
+        seasons: ["The Seasons", "serif"],
       },
       colors: {
         terracotta: "#a35530",
