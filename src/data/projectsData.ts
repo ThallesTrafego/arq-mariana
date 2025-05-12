@@ -31,7 +31,7 @@ export const projectsData: ProjectData[] = [
       "/lovable-uploads/fd076955-513d-4c30-b371-71d340aa9fb6.png",
       "/lovable-uploads/7fd43bb7-695d-426f-bd3f-c951b68f4b39.png"
     ],
-    title: "Interiores - MD",
+    title: "Interiores - Casa Marcelo e Daianny",
     category: "Residencial"
   },
   {
@@ -61,7 +61,7 @@ export const projectsData: ProjectData[] = [
       "/lovable-uploads/4076cb4d-0c4a-42da-9c91-37ea4798d277.png",
       "/lovable-uploads/677b5ab0-29de-4b9e-af1e-9b51f31aaf9a.png"
     ],
-    title: "Dormitório Conrado",
+    title: "Dormitório Infantil",
     category: "Residencial"
   },
   {
@@ -92,7 +92,7 @@ export const projectsData: ProjectData[] = [
       "/lovable-uploads/e9bd886c-55e4-4d4f-8a75-f95911a7be56.png",
       "/lovable-uploads/eb62d674-f21a-4f45-a5f8-be0adfb2126c.png"
     ],
-    title: "Projeto EV",
+    title: "Interiores - Casa Euzineri e Vicente",
     category: "Residencial"
   },
   {
@@ -112,7 +112,7 @@ export const projectsData: ProjectData[] = [
       "/lovable-uploads/a38dd064-dce2-48bf-8745-d4bb4765aeda.png",
       "/lovable-uploads/ec8771a4-3848-4bb6-9727-e2905a06bd3c.png"
     ],
-    title: "Interiores - Apartamento VF",
+    title: "Interiores - Apartamento Veronica e Francisco",
     category: "Residencial"
   },
   {
@@ -156,7 +156,7 @@ export const projectsData: ProjectData[] = [
       "/lovable-uploads/a5320c51-3ef8-4356-8878-00b0da068d32.png",
       "/lovable-uploads/b8a4623e-1e9c-47b9-bb78-f48a3f3a1d8f.png"
     ],
-    title: "Apartamento RA",
+    title: "Interiores - Apartamento Rosane e Antônio",
     category: "Residencial"
   },
   {
@@ -172,7 +172,7 @@ export const projectsData: ProjectData[] = [
       "/lovable-uploads/49a7d0a3-dd41-4830-9064-10bd69e91944.png",
       "/lovable-uploads/d1b1e8ef-b74d-461c-8b3b-a2468bfbd030.png"
     ],
-    title: "Projeto MF",
+    title: "Interiores - Apartamento Rosane e Antônio",
     category: "Residencial"
   },
   {
