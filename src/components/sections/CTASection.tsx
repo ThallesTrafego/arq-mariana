@@ -9,7 +9,11 @@ export const CTASection = () => {
         <p className="text-neutral-600 mb-8">
           Entre em contato agora e vamos criar juntos o projeto dos seus sonhos.
         </p>
-        <WhatsAppButton text="Fale com nossa equipe" className="text-lg px-8 py-4 bg-terracotta hover:bg-terracotta/90" />
+        <WhatsAppButton 
+          text="Fale com nossa equipe" 
+          phoneNumber="5555991148008"
+          className="text-lg px-8 py-4 bg-terracotta hover:bg-terracotta/90" 
+        />
       </div>
     </section>
   );

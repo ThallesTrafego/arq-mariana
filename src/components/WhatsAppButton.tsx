@@ -8,7 +8,7 @@ interface WhatsAppButtonProps {
   className?: string;
 }
 
-export const WhatsAppButton = ({ text = "Fale Conosco", phoneNumber = "5511999999999", className }: WhatsAppButtonProps) => {
+export const WhatsAppButton = ({ text = "Fale Conosco", phoneNumber = "5555991148008", className }: WhatsAppButtonProps) => {
   const handleClick = () => {
     window.open(`https://wa.me/${phoneNumber}`, "_blank");
   };

@@ -10,7 +10,11 @@ export const SecondCTASection = () => {
           Entre em contato agora mesmo e vamos iniciar uma conversa sobre como podemos 
           transformar seu espaço com criatividade, funcionalidade e identidade.
         </p>
-        <WhatsAppButton text="Solicite um Orçamento" className="text-lg px-8 py-6" />
+        <WhatsAppButton 
+          text="Solicite um Orçamento" 
+          phoneNumber="5555991148008"
+          className="text-lg px-8 py-6" 
+        />
       </div>
     </section>
   );
