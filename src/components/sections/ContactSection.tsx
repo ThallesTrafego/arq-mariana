@@ -1,7 +1,7 @@
 
 import { Separator } from "@/components/ui/separator";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { Instagram, Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 export const ContactSection = () => {
   return (
@@ -44,7 +44,6 @@ export const ContactSection = () => {
                     />
                     <AvatarFallback>MM</AvatarFallback>
                   </Avatar>
-                  <Instagram className="h-6 w-6" />
                   <span>@arquitetamarianamello</span>
                 </a>
               </div>
