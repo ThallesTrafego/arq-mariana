@@ -1,5 +1,6 @@
 
 import { Separator } from "@/components/ui/separator";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Instagram, Mail, MapPin, Phone } from "lucide-react";
 
 export const ContactSection = () => {
@@ -34,9 +35,17 @@ export const ContactSection = () => {
                   href="https://www.instagram.com/arquitetamarianamello/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-neutral-600 hover:text-terracotta transition-colors"
+                  className="flex items-center gap-2 text-neutral-600 hover:text-terracotta transition-colors"
                 >
+                  <Avatar className="h-6 w-6">
+                    <AvatarImage 
+                      src="/lovable-uploads/cc64aed2-c9d3-4554-af64-74700170853f.png" 
+                      alt="Arquiteta Mariana Mello" 
+                    />
+                    <AvatarFallback>MM</AvatarFallback>
+                  </Avatar>
                   <Instagram className="h-6 w-6" />
+                  <span>@arquitetamarianamello</span>
                 </a>
               </div>
             </div>
