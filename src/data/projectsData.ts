@@ -17,6 +17,9 @@ export const projectsData: ProjectData[] = [
   },
   {
     images: [
+      "/lovable-uploads/7350e8c2-023a-4c07-aeb5-8f8cb5bdf121.png",
+      "/lovable-uploads/c8acb118-ae1f-4f0c-b0e9-b86411d5f8ed.png",
+      "/lovable-uploads/2c25652e-4fea-471f-b465-fe566f656e83.png",
       "/lovable-uploads/92de2557-ba5a-4aad-8de2-1f83e2e430ed.png",
       "/lovable-uploads/1f1b9e5b-d133-4bea-a14b-24cb53c79ce8.png",
       "/lovable-uploads/3dd26fc3-8dd8-4891-ae34-1e153e09c8fb.png",
