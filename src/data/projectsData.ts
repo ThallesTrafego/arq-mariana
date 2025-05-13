@@ -1,4 +1,3 @@
-
 export interface ProjectData {
   images: string[];
   title: string;
@@ -6,6 +5,16 @@ export interface ProjectData {
 }
 
 export const projectsData: ProjectData[] = [
+  {
+    images: [
+      "/lovable-uploads/dc14fca7-ae9e-42d7-9570-a6b2cbaf9329.png",
+      "/lovable-uploads/a1bc44b3-e543-4825-884b-877c90acf6ce.png",
+      "/lovable-uploads/eec1581e-c4a0-413a-9185-a88cf7e61ba0.png",
+      "/lovable-uploads/0b7630c1-a837-4b96-9726-f4f311b31181.png"
+    ],
+    title: "Banca Stilo Kids",
+    category: "Comercial"
+  },
   {
     images: [
       "/lovable-uploads/5f3f3c6c-b86b-414b-abed-727bd553297e.png",
