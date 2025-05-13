@@ -39,7 +39,7 @@ export const ContactSection = () => {
                 >
                   <Avatar className="h-6 w-6">
                     <AvatarImage 
-                      src="/lovable-uploads/cc64aed2-c9d3-4554-af64-74700170853f.png" 
+                      src="/lovable-uploads/a8624796-de48-406d-9a3f-9a9db38f1ca2.png" 
                       alt="Arquiteta Mariana Mello" 
                     />
                     <AvatarFallback>MM</AvatarFallback>
